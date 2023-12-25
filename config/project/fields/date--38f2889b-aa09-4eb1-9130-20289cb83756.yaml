@@ -1,0 +1,19 @@
+columnSuffix: hfdhjcvy
+contentColumnType:
+  - 'date:datetime'
+  - 'tz:string'
+fieldGroup: 153a5705-0659-4f36-85d4-99f781890f90 # Blog
+handle: date
+instructions: 'The date this blog post was authored. If unprovided, the entry''s creation date will be used.'
+name: Date
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: true
+  showTimeZone: true
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

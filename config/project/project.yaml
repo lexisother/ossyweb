@@ -1,0 +1,71 @@
+dateModified: 1703538060
+email:
+  fromEmail: alyxia@riseup.net
+  fromName: Ossyweb
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  images:
+    hasUrls: false
+    name: Images
+    settings:
+      path: '@storage/images'
+    type: craft\fs\Local
+    url: null
+meta:
+  __names__:
+    5deffeba-4b22-4b86-bc22-7b847b5d2271: Caption # Caption
+    6fa14b32-f1fa-47a6-8f89-4cfa9f57d553: Images # Images
+    7d1cde09-7f5f-495f-a4c0-8bd783d3c328: Infobox # Infobox
+    9fed34a1-5ea9-4990-966a-688ef3b24e14: Tags # Tags
+    11a23a8e-4161-498e-a186-17f3a02eee93: Image # Image
+    25e87bb8-0f06-4188-8853-66b67a9ed4cd: Title # Title
+    38f2889b-aa09-4eb1-9130-20289cb83756: Date # Date
+    75aebda1-d2ea-4d01-8588-dcd06e935fd1: Default # Default
+    83db3eee-a8af-4f85-a62d-8cf58e811498: 'Blog posts' # Blog posts
+    85c940f6-bd12-409a-ba09-e89808e51588: 'Content blocks' # Content blocks
+    86fefa4d-a9eb-4b7f-a61d-004fe86777ec: Links # Links
+    92a92774-b6e2-451e-966b-1c26b0bcb790: Common # Common
+    153a5705-0659-4f36-85d4-99f781890f90: Blog # Blog
+    386c9f6a-51d6-4498-ba11-99477985908d: Table # Table
+    839ae2cf-f27c-437d-8638-e143ed7dc237: Images # Images
+    945a92b7-6991-438d-a6e5-83178d2900c1: Author # Author
+    1030c5b4-a71b-4480-9bc4-291e93f94c15: Title # Title
+    2984f79f-c827-46a5-a2cd-47eb998cde86: Default # Default
+    3069c1ee-90d5-4fb8-ba90-bf50c4231395: Tables # Tables
+    6241c26f-d8e2-430b-8d82-e337443c3ec0: Text # Text
+    39455dac-8f36-4b6b-a4af-d933d339d918: Text # Text
+    56778e37-c05d-4b72-9057-434d06389bd1: Ossyweb # Ossyweb
+    532263ad-20bf-4295-9d54-146d12a40216: 'Wiki pages' # Wiki pages
+    757075c4-b94f-4be4-b55a-de554eb8b122: Default # Default
+    7069348a-5b5a-40ca-9a8c-2ecdcdf3a146: Wiki # Wiki
+    a6c52aef-1e3b-4ac2-819d-af905492c082: Header # Header
+    b551bf6a-c784-4830-98d0-cf532519e326: Infobox # Infobox
+    ccc8c64c-9c60-49be-9c7b-2a1911394d95: Images # Images
+    ef8f836c-1e3e-4c08-b6ac-678de5511aaa: Ossyweb # Ossyweb
+    f83161a7-6fcf-4ceb-bebe-56bb0b870f7d: 'Content pages' # Content pages
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  tablemaker:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+system:
+  edition: solo
+  live: true
+  name: Ossyweb
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: Europe/Amsterdam
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

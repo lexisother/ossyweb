@@ -1,0 +1,19 @@
+columnSuffix: rdmclqob
+contentColumnType: text
+fieldGroup: 92a92774-b6e2-451e-966b-1c26b0bcb790 # Common
+handle: imageCaption
+instructions: 'Caption for the image.'
+name: Caption
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

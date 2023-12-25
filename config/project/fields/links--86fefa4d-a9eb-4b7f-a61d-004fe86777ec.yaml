@@ -1,0 +1,35 @@
+columnSuffix: sydmcloj
+contentColumnType: text
+fieldGroup: 153a5705-0659-4f36-85d4-99f781890f90 # Blog
+handle: links
+instructions: 'Sources/"See more" esque links section.'
+name: Links
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - URLs
+            -
+              - handle
+              - urls
+            -
+              - width
+              - ''
+            -
+              - type
+              - url
+  defaults: null
+  maxRows: null
+  minRows: null
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

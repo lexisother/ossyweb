@@ -1,0 +1,19 @@
+columnSuffix: czrtlqju
+contentColumnType: text
+fieldGroup: 153a5705-0659-4f36-85d4-99f781890f90 # Blog
+handle: authoredBy
+instructions: 'The author of the post.'
+name: Author
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: Ossian
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

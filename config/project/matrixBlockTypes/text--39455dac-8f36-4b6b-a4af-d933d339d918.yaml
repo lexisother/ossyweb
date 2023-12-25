@@ -1,0 +1,86 @@
+field: 85c940f6-bd12-409a-ba09-e89808e51588 # Content blocks
+fieldLayouts:
+  92183113-c9c0-4352-822a-18e740ddf464:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 1030c5b4-a71b-4480-9bc4-291e93f94c15 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7b278f50-7e55-4bb6-a2c2-5382901fe2ec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6241c26f-d8e2-430b-8d82-e337443c3ec0 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eae47944-521d-4918-b56d-6e05c4d47411
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: dfa45180-35fd-4dca-9038-86c090f38795
+        userCondition: null
+fields:
+  1030c5b4-a71b-4480-9bc4-291e93f94c15: # Title
+    columnSuffix: ptfssoye
+    contentColumnType: text
+    fieldGroup: null
+    handle: blockTitle
+    instructions: null
+    name: Title
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: text
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  6241c26f-d8e2-430b-8d82-e337443c3ec0: # Text
+    columnSuffix: kllndwvz
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: true
+      removeInlineStyles: true
+      removeNbsp: true
+      showHtmlButtonForNonAdmins: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: text
+name: Text
+sortOrder: 1

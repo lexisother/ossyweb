@@ -1,0 +1,5 @@
+/.env
+/.idea
+/vendor
+/store/images
+.DS_Store

@@ -1,5 +1,5 @@
 /.env
 /.idea
 /vendor
-/store/images
+/storage/images
 .DS_Store

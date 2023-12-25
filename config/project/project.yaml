@@ -1,4 +1,4 @@
-dateModified: 1703538060
+dateModified: 1703541264
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -56,6 +56,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

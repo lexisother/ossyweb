@@ -1,0 +1,21 @@
+services:
+  web:
+    image: craftcms/nginx:8.1
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/app
+
+  db:
+    image: postgres:13-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: db
+      POSTGRES_USER: db
+      POSTGRES_PASSWORD: db
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:

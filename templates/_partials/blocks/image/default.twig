@@ -1,0 +1,21 @@
+{% set containerClasses = '' %}
+{% if block.layout.value == 'boxed' %}
+    {% set containerClasses = 'rounded-2xl' %}
+    <div class="boxed">
+{% else %}
+    {% set containerClasses = '' %}
+{% endif %}
+
+{% set size = block.imageRatio.value %}
+{% set sizes = '(min-width: 1440px) 1400px, (min-width: 1024px) and (max-width: 1439px) 50vw, 100vw' %}
+{% include "_partials/interface/images.twig" with {
+    image: block.images[0],
+    size: size,
+    sizes: sizes,
+    imageClasses:'w-full object-cover',
+    containerClasses: containerClasses,
+} only %}
+
+{% if block.layout == 'boxed' %}
+    </div>
+{% endif %}

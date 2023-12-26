@@ -5,12 +5,12 @@ email:
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   images:
-    hasUrls: false
+    hasUrls: true
     name: Images
     settings:
-      path: '@storage/images'
+      path: '@webroot/assets/images'
     type: craft\fs\Local
-    url: null
+    url: '@web/assets/images'
 meta:
   __names__:
     5deffeba-4b22-4b86-bc22-7b847b5d2271: Caption # Caption

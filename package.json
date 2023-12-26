@@ -9,6 +9,7 @@
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",
     "alpinejs": "^3.12.0",
+    "lazysizes": "^5.3.2",
     "tailwindcss": "^3.3.1"
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
   "scripts": {
     "serve": "vite",
     "build": "vite build",
+    "dev": "vite build --watch",
     "lint": "npm run lint:ts && npm run lint:js && npm run lint:css",
     "lint:ts": "tsc --noEmit",
     "lint:js": "eslint './src/**/*.{js,ts,vue}' --fix",

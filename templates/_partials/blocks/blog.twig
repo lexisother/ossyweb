@@ -1,0 +1,41 @@
+{# Image #}
+{% if item.overviewImage|length > 0 %}
+{% set image = item.overviewImage.one() %}
+{% elseif item.heroImages|length > 0 %}
+{% set image = item.heroImages.one() %}
+{% else %}
+{% set image = general.fallbackImg.one() %}
+{% endif %}
+
+{# Url #}
+{% set itemUrl = item.getUrl() %}
+
+{# Image styles #}
+{% set ratio = 7/6 %}
+{% set imgSize = 'referencImg-compact' %}
+{% set breakPointSizes = '(max-width: 676px) 100vw, 25vw' %}
+
+<a href="{{ itemUrl }}" class="block mb-8 group">
+    <div class="relative mb-4">
+        {% if image %}
+{#            {% include "_partials/interface/images.twig" with { image: image, size: imgSize, sizes: breakPointSizes, imageClasses: 'transform group-hover:scale-120 transition-all ease duration-150', containerClasses: containerClasses } only %}#}
+            {{ image.img }}
+        {% endif %}
+    </div>
+
+    <h3 class="text-black mb-2 font-bold pt-0 text-xl md:text-2.5xl leading-tight mt-1">{{ item.title }}</h3>
+
+{#    {% if item.overviewText|length > 0 %}#}
+{#        <div class="text-grayMedium font-normal">{{ item.overviewText }}</div>#}
+{#    {% endif %}#}
+
+    <div class="flex mt-4 md:mt-6 items-center">
+        <div>
+            {% if item.authoredBy|length > 0 %}
+                <p class="text-primary">{{item.authoredBy}}</p>
+            {% endif %}
+            <p class="text-grayDarker">{{ item.date|date("d F, Y") }}</p>
+        </div>
+    </div>
+
+</a>

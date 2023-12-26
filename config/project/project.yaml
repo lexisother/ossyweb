@@ -1,4 +1,4 @@
-dateModified: 1703583122
+dateModified: 1703591605
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -13,6 +13,7 @@ fs:
     url: '@web/assets/images'
 meta:
   __names__:
+    3db08b57-f3d4-4d95-882a-df1dce6941e0: 'Header image' # Header image
     5deffeba-4b22-4b86-bc22-7b847b5d2271: Caption # Caption
     6c1c2f5f-4865-446b-adbe-963bc320004f: 'Blog overview' # Blog overview
     6fa14b32-f1fa-47a6-8f89-4cfa9f57d553: Images # Images
@@ -46,6 +47,7 @@ meta:
     ccc8c64c-9c60-49be-9c7b-2a1911394d95: Images # Images
     ea4268bc-078c-437b-98b9-849a236599b4: Homepage # Homepage
     ef8f836c-1e3e-4c08-b6ac-678de5511aaa: Ossyweb # Ossyweb
+    f4bb6200-34bc-40a3-a178-12160c9f2ddf: 'Overview image' # Overview image
     f83161a7-6fcf-4ceb-bebe-56bb0b870f7d: 'Content pages' # Content pages
 plugins:
   minify:

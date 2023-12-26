@@ -26,6 +26,13 @@
  │                                  htmlPage                                   │
  └─────────────────────────────────────────────────────────────────────────────┘
 #}
+{% set contentBlockEagerFields = [
+    'contentBlocks.textWithMedia:images',
+    'contentBlocks.image:images',
+    'contentBlocks.video:placeholderImage',
+    'contentBlocks.video:videoFile',
+] %}
+
 
 {%- block htmlPage -%}
     {% minify %}

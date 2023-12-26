@@ -2,6 +2,7 @@
   "require": {
     "craftcms/cms": "4.5.13",
     "craftcms/redactor": "3.0.4",
+    "nystudio107/craft-minify": "4.0.0-beta.2",
     "nystudio107/craft-vite": "4.0.7",
     "verbb/super-table": "3.0.12",
     "verbb/tablemaker": "4.0.7",

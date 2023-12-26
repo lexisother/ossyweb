@@ -1,0 +1,47 @@
+/**
+ * This injects Tailwind's base styles, which is a combination of
+ * Normalize.css and some additional base styles.
+ */
+@import 'tailwindcss/base';
+
+/**
+ * Here we add custom base styles, applied after the tailwind-base
+ * classes
+ */
+
+/**
+ * This injects any component classes registered by plugins.
+ */
+@import 'tailwindcss/components';
+
+/**
+ * Here we add custom component classes; stuff we want loaded
+ * *before* the utilities so that the utilities can still
+ * override them.
+ */
+//@import './components/global.scss';
+//@import './components/typography.scss';
+//@import './components/webfonts.scss';
+//@import './components/youtube.scss';
+//@import './components/cookie.scss';
+
+/**
+ * Include styles for individual pages
+ */
+//@import './pages/homepage.scss';
+
+/**
+ * This injects all of Tailwind's utility classes, generated based on your
+ * config file.
+ */
+@import 'tailwindcss/utilities';
+
+@layer components {
+    .full-click {
+        @apply after:z-10 after:absolute after:inset-0 after:bg-transparent after:pointer-events-auto
+    }
+
+    .boxed {
+        @apply mx-auto py-14 px-6 lg:p-20 max-w-[1536px];
+    }
+}

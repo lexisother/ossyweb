@@ -44,11 +44,13 @@ meta:
     47572027-2208-4254-bc48-34c65c833928: 'Blog overview' # Blog overview
     a6c52aef-1e3b-4ac2-819d-af905492c082: Header # Header
     b551bf6a-c784-4830-98d0-cf532519e326: Infobox # Infobox
-    ccc8c64c-9c60-49be-9c7b-2a1911394d95: Images # Images
+    ccc8c64c-9c60-49be-9c7b-2a1911394d95: Image # Image
     ea4268bc-078c-437b-98b9-849a236599b4: Homepage # Homepage
     ef8f836c-1e3e-4c08-b6ac-678de5511aaa: Ossyweb # Ossyweb
     f4bb6200-34bc-40a3-a178-12160c9f2ddf: 'Overview image' # Overview image
+    f89ccc3e-e3ce-4f6f-8e5b-71e3061ccd6b: Layout # Layout
     f83161a7-6fcf-4ceb-bebe-56bb0b870f7d: 'Content pages' # Content pages
+    f2368203-b60a-48b0-9a3f-381e7b52be93: 'Image ratio' # Image ratio
 plugins:
   imager-x:
     edition: pro

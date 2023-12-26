@@ -1,4 +1,4 @@
-dateModified: 1703591605
+dateModified: 1703593112
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -50,6 +50,11 @@ meta:
     f4bb6200-34bc-40a3-a178-12160c9f2ddf: 'Overview image' # Overview image
     f83161a7-6fcf-4ceb-bebe-56bb0b870f7d: 'Content pages' # Content pages
 plugins:
+  imager-x:
+    edition: pro
+    enabled: true
+    licenseKey: HZG0ZPJLRI7D4X7DZ50ZFAA8
+    schemaVersion: 4.0.0
   minify:
     edition: standard
     enabled: true

@@ -18,8 +18,7 @@
 <a href="{{ itemUrl }}" class="block mb-8 group">
     <div class="relative mb-4">
         {% if image %}
-{#            {% include "_partials/interface/images.twig" with { image: image, size: imgSize, sizes: breakPointSizes, imageClasses: 'transform group-hover:scale-120 transition-all ease duration-150', containerClasses: containerClasses } only %}#}
-            {{ image.img }}
+            {% include "_partials/interface/images.twig" with { image: image, size: imgSize, sizes: breakPointSizes, imageClasses: 'transform group-hover:scale-120 transition-all ease duration-150', containerClasses: '' } only %}
         {% endif %}
     </div>
 

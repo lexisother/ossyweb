@@ -1,4 +1,4 @@
-dateModified: 1703633938
+dateModified: 1703637121
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -13,12 +13,12 @@ fs:
     url: '@web/assets/images'
 meta:
   __names__:
+    0c0a4890-0834-44b7-b457-2a6ce8be38b7: 'Blog tags' # Blog tags
     3db08b57-f3d4-4d95-882a-df1dce6941e0: 'Header image' # Header image
     5deffeba-4b22-4b86-bc22-7b847b5d2271: Caption # Caption
     6c1c2f5f-4865-446b-adbe-963bc320004f: 'Blog overview' # Blog overview
     6fa14b32-f1fa-47a6-8f89-4cfa9f57d553: Images # Images
     7d1cde09-7f5f-495f-a4c0-8bd783d3c328: Infobox # Infobox
-    9fed34a1-5ea9-4990-966a-688ef3b24e14: Tags # Tags
     11a23a8e-4161-498e-a186-17f3a02eee93: Image # Image
     25e87bb8-0f06-4188-8853-66b67a9ed4cd: Title # Title
     38f2889b-aa09-4eb1-9130-20289cb83756: Date # Date
@@ -40,6 +40,7 @@ meta:
     56778e37-c05d-4b72-9057-434d06389bd1: Ossyweb # Ossyweb
     532263ad-20bf-4295-9d54-146d12a40216: 'Wiki pages' # Wiki pages
     757075c4-b94f-4be4-b55a-de554eb8b122: Default # Default
+    1773497c-af9b-4c16-abbf-6bff44a59d6f: 'Blog tags' # Blog tags
     7069348a-5b5a-40ca-9a8c-2ecdcdf3a146: Wiki # Wiki
     47572027-2208-4254-bc48-34c65c833928: 'Blog overview' # Blog overview
     a6c52aef-1e3b-4ac2-819d-af905492c082: Header # Header

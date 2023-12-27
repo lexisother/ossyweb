@@ -57,16 +57,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9fed34a1-5ea9-4990-966a-688ef3b24e14 # Tags
+            fieldUid: 1773497c-af9b-4c16-abbf-6bff44a59d6f # Blog tags
             instructions: null
-            label: null
+            label: Tags
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 39bdcd4d-20d9-4b49-8df6-300713d762f1
+            uid: 03a735fa-5065-46e9-b48f-791a92a536ad
             userCondition: null
             warning: null
-            width: 50
+            width: 100
           -
             elementCondition: null
             type: craft\fieldlayoutelements\HorizontalRule

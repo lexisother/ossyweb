@@ -1,0 +1,47 @@
+defaultPlacement: end
+fieldLayouts:
+  5d25ad62-915d-41a1-9faf-9589e3b64954:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 1f2fa3ca-d606-4c74-9321-130464f35d33
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 41c93138-29f3-44aa-933b-2f2d371a8f81
+        userCondition: null
+handle: blogTags
+name: 'Blog tags'
+siteSettings:
+  56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb
+    hasUrls: true
+    template: null
+    uriFormat: 'blog/tags/{slug}'
+structure:
+  maxLevels: null
+  uid: 6491ef80-a2a3-408c-bab9-e132aa81eb60

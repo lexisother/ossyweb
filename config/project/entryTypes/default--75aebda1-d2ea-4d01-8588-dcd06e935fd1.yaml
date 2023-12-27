@@ -33,7 +33,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9fed34a1-5ea9-4990-966a-688ef3b24e14 # Tags
+            fieldUid: 9fed34a1-5ea9-4990-966a-688ef3b24e14
             instructions: null
             label: null
             required: false

@@ -1,0 +1,23 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 153a5705-0659-4f36-85d4-99f781890f90 # Blog
+handle: blogTags
+instructions: null
+name: 'Blog tags'
+searchable: true
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showSiteMenu: true
+  source: 'group:0c0a4890-0834-44b7-b457-2a6ce8be38b7' # Blog tags
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

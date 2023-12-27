@@ -1,4 +1,4 @@
-dateModified: 1703593112
+dateModified: 1703633938
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -57,6 +57,10 @@ plugins:
     enabled: true
     licenseKey: HZG0ZPJLRI7D4X7DZ50ZFAA8
     schemaVersion: 4.0.0
+  inlinesvg:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
   minify:
     edition: standard
     enabled: true

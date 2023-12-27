@@ -1,10 +1,11 @@
 import Alpine from 'alpinejs';
-window.Alpine = Alpine;
-Alpine.start();
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 import '@/css/app.scss';
+
+window.Alpine = Alpine;
+Alpine.start();
 
 const main = async () => {
   const lazysizes = await import(/* webpackChunkName: "lazysizes" */ 'lazysizes');
@@ -27,7 +28,6 @@ const sliders = () => {
       initialSlide: 0,
       grabCursor: true,
       centeredSlides: true,
-      loop: true,
       navigation: {
         nextEl: buttonNext,
         prevEl: buttonPrev,

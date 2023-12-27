@@ -1,6 +1,6 @@
 {% set wrapperClasses = wrapperClasses is defined and wrapperClasses|length ? wrapperClasses : '' %}
 
-<div class="flex gap-2 {{wrapperClasses}}">
+<div class="flex gap-2 {{ wrapperClasses }}">
     <button class="relative z-50 flex items-center justify-center text-white rounded-full lg:transform lg:-translate-y-1/2 lg:absolute button-prev bg-primary w-9 h-9 md:w-14 md:h-14 lg:left-12 top-1/2">
         {{ inlineSvg('chevron', 'stroke-current w-4 h-3 md:w-7 md:h-4 transform rotate-90', { sanitize: true, namespace: true }) }}
     </button>

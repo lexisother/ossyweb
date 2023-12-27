@@ -19,6 +19,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 731fccf2-b21e-40b6-9891-8fe08acad0b4 # Loop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 33488228-84d1-4549-be5d-ce5e10801cfd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: f2368203-b60a-48b0-9a3f-381e7b52be93 # Image ratio
             instructions: null
             label: null
@@ -95,6 +107,21 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\Assets
+  731fccf2-b21e-40b6-9891-8fe08acad0b4: # Loop
+    columnSuffix: gyvjctcs
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: loop
+    instructions: 'WARNING: You are recommended to keep this OFF because it can cause a bug in the slider! You''ll see for yourself.'
+    name: Loop
+    searchable: false
+    settings:
+      default: false
+      offLabel: null
+      onLabel: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
   f89ccc3e-e3ce-4f6f-8e5b-71e3061ccd6b: # Layout
     columnSuffix: xhfmeqcb
     contentColumnType: string(5)

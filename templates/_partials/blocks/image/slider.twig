@@ -9,10 +9,13 @@
     {% set imageContainerClasses = '' %}
     {% set wrapperClasses = 'boxed py-0 mb-2' %}
 {% endif %}
-<div class="{{containerClasses}}">
+<div class="{{ containerClasses }}">
     <div class="relative w-full overflow-hidden" data-swiper='{
             "type": "image",
             "minSlides": 1
+            {% if block.loop %}
+            ,"loop": true
+            {% endif %}
         }'>
         <div class="swiper-wrapper">
             {% for image in block.images %}

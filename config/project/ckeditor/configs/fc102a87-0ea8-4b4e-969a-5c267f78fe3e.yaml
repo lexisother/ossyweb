@@ -35,5 +35,7 @@ toolbar:
   - italic
   - link
   - '|'
+  - insertTable
+  - '|'
   - findAndReplace
   - sourceEditing

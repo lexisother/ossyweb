@@ -1,0 +1,107 @@
+{% if 'youtube' in block.videoLink %}
+    {% set videoLink = block.videoLink %}
+    {% set ytregex1 = '/^(?:https?:\\/\\/)?(?:www\.)?(?:youtu\.be\\/|youtube\.com)(?:\\/embed\\/|\\/v\\/|\\/watch\\?v=||\\/watch\\\?.+&v=)/' %}
+    {% set ytregexTrailingSlash = '/(\\/)$/' %}
+    {% set ytregexTrailingVariables = '/(&+.*)/' %}
+    {% set videoId = block.videoLink | replace(ytregex1, '') | replace(ytregexTrailingSlash, '') | replace(ytregexTrailingVariables, '') %}
+    {% set image = 'https://img.youtube.com/vi/'~videoId~'/hqdefault.jpg' %}
+    {% set image2 = 'https://img.youtube.com/vi/'~videoId~'/hqdefault.jpg' %}
+
+    {% if block.placeholderImage is defined and block.placeholderImage|length > 0 %}
+        {% set image = block.placeholderImage.one().url %}
+        {% set image2 = block.placeholderImage %}
+    {% endif %}
+{% elseif 'vimeo' in block.videoLink %}
+    {% set videoLink = block.videoLink %}
+    {% set videoId = block.videoLink|split('https://vimeo.com/') %}
+    {% set videoId = videoId[1] %}
+    {% set image = 'https://vumbnail.com/'~videoId~'_large.jpg' %}
+    {% set image2 = 'https://vumbnail.com/'~videoId~'_large.jpg' %}
+    {% if block.placeholderImage is defined and block.placeholderImage|length > 0 %}
+        {% set image = block.placeholderImage.one().url %}
+        {% set image2 = block.placeholderImage %}
+    {% endif %}
+{% else %}
+    {% set videoLink = block.videoFile.one().url() %}
+    {% if block.placeholderImage is defined and block.placeholderImage|length > 0 %}
+        {% set posterImage = block.placeholderImage.one() %}
+        {% set image = block.placeholderImage.one().url %}
+        {% set image2 = block.placeholderImage %}
+    {% endif %}
+{% endif %}
+
+{% if block.layout == 'boxed' %}
+<section class="boxed">
+    <div class="overflow-hidden">
+        {% else %}
+        <section>
+            {% endif %}
+
+            {% if block.videoType.value == 'embed' or block.videoType.value == 'embedAutoplay' %}
+                {% set autoPlay = false %}
+                {% if block.videoType.value == 'embedAutoplay' %}
+                    {% set autoPlay = true %}
+                {% endif %}
+                {% if block.videoFile|length > 0 %}
+                    {% set image = '' %}
+                    {% if block.placeholderImage|length > 0 %}
+                        {% set size = 'aspect-16/9' %}
+                        {% set transformedImages = craft.imager.transformImage(posterImage, size) %}
+                    {% endif %}
+                    <video {{ autoPlay == true ? 'autoplay loop muted' : 'controls' }}
+                            class="w-full h-full lazyload" {% if transformedImages is defined and transformedImages|length > 0 %}poster="{{ transformedImages[0].url }}"{% endif %}
+                            data-src="{{ block.videoFile.one().url }}"></video>
+                {% else %}
+                    {% if 'youtube' in block.videoLink %}
+                        {% if autoPlay %}
+                            <div class="aspect-w-16 aspect-h-9">
+                                <iframe class="w-full h-full lazyload"
+                                        data-src="https://www.youtube-nocookie.com/embed/{{ videoId }}?&modestbranding=1&autohide=1&autoplay=1&mute=1&loop=1&controls=0&playsinline=1&rel=0&showinfo=0"
+                                        title="" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                            </div>
+                        {% else %}
+                            <lite-youtube
+                                    style="background-image: url({{ image }});"
+                                    videoid="{{ videoId }}"
+                                    playlabel="{{ "Speel video af"|t }}"
+                                    params="controls=1&playsinline=1&modestbranding=1&rel=0&enablejsapi=1&iv_load_policy=3&showinfo=0">
+                            </lite-youtube>
+                        {% endif %}
+                    {% elseif 'vimeo' in block.videoLink %}
+                        {% if autoPlay %}
+                            <div class="aspect-w-16 aspect-h-9">
+                                <iframe class="w-full h-full lazyload"
+                                        data-src="https://player.vimeo.com/video/{{ videoId }}?autoplay=1&loop=1&autopause=0&muted=1&&sidedock=0&controls=0&"
+                                        frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                            </div>
+                        {% else %}
+                            <lite-vimeo videoid="{{ videoId }}" autoload></lite-vimeo>
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% else %}
+                {# MODAL #}
+                <a href="{{ videoLink }}" class="relative z-0 block group video-popup">
+                    <button class="w-[69px] h-[69px] bg-primary text-white transition ease-in-out duration-150 rounded-full absolute left-1/2 top-1/2 z-10 transform -translate-x-1/2 -translate-y-1/2 group-hover:bg-black">
+                        {{ inlineSvg('icons/play', 'fill-current w-7 block h-7 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2', { sanitize: true, namespace: true }) }}
+                    </button>
+                    {% if block.placeholderImage|length > 0 %}
+                        {% set size = 'aspect-16/9' %}
+                        {% set sizes = '(min-width: 1440px) 1400px, (min-width: 1024px) and (max-width: 1439px) 50vw, 100vw' %}
+                        {% include "_partials/interface/images.twig" with {
+                            image: image2,
+                            size: size,
+                            sizes: sizes,
+                            imageClasses:'w-full object-cover',
+                            containerClasses: '',
+                        } only %}
+                    {% else %}
+                        <img src="{{ image }}" class="w-full lazyload" width="1280" height="720" alt="">
+                    {% endif %}
+                </a>
+            {% endif %}
+
+        {% if block.layout == 'boxed' %}</div>{% endif %}
+</section>

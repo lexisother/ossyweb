@@ -1,0 +1,9 @@
+{% set standardBlock = block.block.one() %}
+
+{% if standardBlock.contentBlocks is defined %}
+    {% for block in standardBlock.contentBlocks.all() %}
+        {% if block.type != "block" %} {# No inifinite loops please #}
+            {% include "_partials/blocks/"~block.type~".twig" with { block: block } %}
+        {% endif %}
+    {% endfor %}
+{% endif %}

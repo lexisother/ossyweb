@@ -1,0 +1,285 @@
+field: 85c940f6-bd12-409a-ba09-e89808e51588 # Content blocks
+fieldLayouts:
+  d5f32124-a8ab-4d12-b9fe-840cbaafbeed:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 859b7ba4-9e42-468c-894f-e21942c422b4 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c58d7956-d203-4c4a-a3a5-6aeecf6dc36b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2778964a-6289-4f09-9401-73f7c2ce1a04 # Images
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3261ecf7-a3e3-445e-9bec-9a43c0258905
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6214ac56-b752-499c-95a2-984f94640f8c # Image ratio
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c31827f2-46f9-4e0d-9cd6-58089b04ee41
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 411ebf8a-0478-40b9-a5fc-8b83e01c14e7 # Image position
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b75bf0e8-4eb8-40d6-b660-4ca020374234
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fa1750fd-9d5e-45a2-a7b7-aa88f3d5b513 # Layout
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4e7809a-40d7-4920-91ee-37b1ca64b9a1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 42c31269-661e-4825-9c6b-d4376ffdb570
+        userCondition: null
+fields:
+  411ebf8a-0478-40b9-a5fc-8b83e01c14e7: # Image position
+    columnSuffix: hxfqaawg
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: null
+    name: 'Image position'
+    searchable: false
+    settings:
+      default: left
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - ''
+          -
+            - right
+            - '1'
+          -
+            - full
+            - ''
+          -
+            - drop-left
+            - ''
+          -
+            - drop-right
+            - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: rias\positionfieldtype\fields\Position
+  859b7ba4-9e42-468c-894f-e21942c422b4: # Text
+    columnSuffix: ekhybbxc
+    contentColumnType: text
+    fieldGroup: null
+    handle: body
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: fc102a87-0ea8-4b4e-969a-5c267f78fe3e # Advanced
+      columnType: text
+      defaultTransform: null
+      enableSourceEditingForNonAdmins: false
+      purifierConfig: null
+      purifyHtml: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      showWordCount: true
+      wordLimit: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field
+  6214ac56-b752-499c-95a2-984f94640f8c: # Image ratio
+    columnSuffix: warvskqs
+    contentColumnType: string(11)
+    fieldGroup: null
+    handle: imageRatio
+    instructions: null
+    name: 'Image ratio'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - 1/1
+            -
+              - value
+              - aspect-1/1
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 4/3
+            -
+              - value
+              - aspect-4/3
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 5/2
+            -
+              - value
+              - aspect-5/2
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - 16/9
+            -
+              - value
+              - aspect-16/9
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  2778964a-6289-4f09-9401-73f7c2ce1a04: # Images
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: images
+    instructions: null
+    name: Images
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:839ae2cf-f27c-437d-8638-e143ed7dc237' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: null
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:839ae2cf-f27c-437d-8638-e143ed7dc237' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  fa1750fd-9d5e-45a2-a7b7-aa88f3d5b513: # Layout
+    columnSuffix: mtnxfsce
+    contentColumnType: string(5)
+    fieldGroup: null
+    handle: layout
+    instructions: null
+    name: Layout
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Boxed
+            -
+              - value
+              - boxed
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Wide
+            -
+              - value
+              - wide
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: textWithMedia
+name: 'Text with media'
+sortOrder: 2

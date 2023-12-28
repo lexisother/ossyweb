@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3e448a1dbb941b920a74964354e9e25",
+    "content-hash": "815efd13c7619eccae678b44c8a1b7c5",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1749,6 +1749,56 @@
                 "url"
             ],
             "time": "2023-12-03T20:05:35+00:00"
+        },
+        {
+            "name": "hybridinteractive/craft-position-fieldtype",
+            "version": "4.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hybridinteractive/craft-position-fieldtype/zipball/f9c0ef9b48b8021d51b302fd8333216b1e8ea73d",
+                "reference": "f9c0ef9b48b8021d51b302fd8333216b1e8ea73d",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0-beta.1"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Position Fieldtype",
+                "handle": "position-fieldtype",
+                "schemaVersion": "1.0.0",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/riasvdv/craft-position-fieldtype/master/CHANGELOG.md",
+                "class": "rias\\positionfieldtype\\PositionFieldtype"
+            },
+            "autoload": {
+                "psr-4": {
+                    "rias\\positionfieldtype\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hybrid Interactive",
+                    "homepage": "https://hybridinteractive.io"
+                }
+            ],
+            "description": "Brings back the Position fieldtype from Craft 2",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "position fieldtype"
+            ],
+            "support": {
+                "docs": "https://github.com/hybridinteractive/craft-position-fieldtype/blob/master/README.md",
+                "issues": "https://github.com/hybridinteractive/craft-position-fieldtype/issues"
+            },
+            "time": "2023-03-13T21:46:19+00:00"
         },
         {
             "name": "illuminate/collections",

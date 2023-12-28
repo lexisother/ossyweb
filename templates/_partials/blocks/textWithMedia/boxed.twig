@@ -1,0 +1,22 @@
+<section class="w-full">
+    <div class="flex flex-col boxed md:flex-row">
+        <div class="w-full md:w-1/2 pb-6 md:pb-0 {% if block.position == 'left' %}md:order-last{% endif %}">
+            {% set size = block.imageRatio.value %}
+            {% set sizes = '(min-width: 1440px) 1400px, (min-width: 1024px) and (max-width: 1439px) 50vw, 100vw' %}
+
+            {% include "_partials/interface/images.twig" with {
+                image: block.images,
+                size: size,
+                sizes: sizes,
+                imageClasses:'w-full object-cover',
+                containerClasses: ''
+            } only %}
+        </div>
+
+        <div class="w-full md:w-1/2 {% if block.position == 'left' %}md:pr-6 lg:pr-20{% else %}md:px-6 lg:pl-20{% endif %} flex items-center justify-end">
+            <div class="w-full">
+                {% include "_partials/blocks/textWithMedia/_partials/content.twig" %}
+            </div>
+        </div>
+    </div>
+</section>

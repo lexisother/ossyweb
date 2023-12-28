@@ -63,24 +63,20 @@ fields:
     searchable: false
     settings:
       availableTransforms: ''
-      availableVolumes: ''
+      availableVolumes: '*'
+      ckeConfig: fc102a87-0ea8-4b4e-969a-5c267f78fe3e # Advanced
       columnType: text
-      configSelectionMode: choose
-      defaultTransform: ''
-      manualConfig: ''
+      defaultTransform: null
+      enableSourceEditingForNonAdmins: false
       purifierConfig: null
       purifyHtml: true
-      redactorConfig: null
-      removeEmptyTags: true
-      removeInlineStyles: true
-      removeNbsp: true
-      showHtmlButtonForNonAdmins: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
-      uiMode: enlarged
+      showWordCount: true
+      wordLimit: null
     translationKeyFormat: null
     translationMethod: none
-    type: craft\redactor\Field
+    type: craft\ckeditor\Field
 handle: text
 name: Text
 sortOrder: 1

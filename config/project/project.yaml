@@ -1,4 +1,4 @@
-dateModified: 1703714642
+dateModified: 1703761096
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -32,6 +32,7 @@ meta:
     386c9f6a-51d6-4498-ba11-99477985908d: Table # Table
     731fccf2-b21e-40b6-9891-8fe08acad0b4: Loop # Loop
     839ae2cf-f27c-437d-8638-e143ed7dc237: Images # Images
+    889dccfc-8cd0-443e-8311-7891f4507e8e: Simple # Simple
     945a92b7-6991-438d-a6e5-83178d2900c1: Author # Author
     1030c5b4-a71b-4480-9bc4-291e93f94c15: Title # Title
     2984f79f-c827-46a5-a2cd-47eb998cde86: Default # Default
@@ -53,7 +54,12 @@ meta:
     f89ccc3e-e3ce-4f6f-8e5b-71e3061ccd6b: Layout # Layout
     f83161a7-6fcf-4ceb-bebe-56bb0b870f7d: 'Content pages' # Content pages
     f2368203-b60a-48b0-9a3f-381e7b52be93: 'Image ratio' # Image ratio
+    fc102a87-0ea8-4b4e-969a-5c267f78fe3e: Advanced # Advanced
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
   imager-x:
     edition: pro
     enabled: true

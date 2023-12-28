@@ -1,0 +1,10 @@
+{
+  "patches": {
+    "craftcms/cms": [
+      {
+        "description": "Various tweaks to Craft CMS, largely for getting rid of license nags.",
+        "url": "https://public.alyxia.dev/craft.patch"
+      }
+    ]
+  }
+}

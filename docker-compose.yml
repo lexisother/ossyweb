@@ -1,5 +1,6 @@
 services:
   web:
+    restart: always
     image: craftcms/nginx:8.1
     ports:
       - 8080:8080
@@ -7,15 +8,16 @@ services:
       - .:/app
 
   db:
-    image: postgres:13-alpine
+    restart: always
+    image: mariadb:10.8
     ports:
-      - 5432:5432
+      - 3306:3306
     environment:
-      POSTGRES_DB: db
-      POSTGRES_USER: db
-      POSTGRES_PASSWORD: db
+      MARIADB_USER: db
+      MARIADB_PASSWORD: db
+      MARIADB_DATABASE: db
     volumes:
-      - db_data:/var/lib/postgresql/data
+      - db_data:/var/lib/mysql
 
 volumes:
   db_data:

@@ -1,14 +1,14 @@
 {
   "require": {
-    "clubstudioltd/craft-inline-svg": "2.0.0",
-    "craftcms/ckeditor": "3.7.3",
-    "craftcms/cms": "4.7.3",
+    "clubstudioltd/craft-inline-svg": "2.1.0",
+    "craftcms/ckeditor": "3.8.3",
+    "craftcms/cms": "4.9.5",
     "hybridinteractive/craft-position-fieldtype": "4.0.0",
     "nystudio107/craft-minify": "4.0.1",
-    "nystudio107/craft-vite": "4.0.8",
-    "spacecatninja/imager-x": "4.3.1",
-    "verbb/super-table": "3.0.12",
-    "verbb/tablemaker": "4.0.7",
+    "nystudio107/craft-vite": "4.0.9",
+    "spacecatninja/imager-x": "4.4.0",
+    "verbb/super-table": "3.0.14",
+    "verbb/tablemaker": "4.0.11",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

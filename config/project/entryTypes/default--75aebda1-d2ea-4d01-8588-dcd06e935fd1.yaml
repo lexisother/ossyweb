@@ -33,18 +33,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 9fed34a1-5ea9-4990-966a-688ef3b24e14
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: fa1e6e9c-6b97-4ae6-a486-5b146757196d
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 7d1cde09-7f5f-495f-a4c0-8bd783d3c328 # Infobox
             instructions: null
             label: null

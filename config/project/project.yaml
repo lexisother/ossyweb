@@ -1,4 +1,4 @@
-dateModified: 1703774530
+dateModified: 1717164267
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -18,6 +18,10 @@ fs:
       path: '@webroot/assets/images'
     type: craft\fs\Local
     url: '@web/assets/images'
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     0c0a4890-0834-44b7-b457-2a6ce8be38b7: 'Blog tags' # Blog tags

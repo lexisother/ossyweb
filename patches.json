@@ -3,7 +3,7 @@
     "craftcms/cms": [
       {
         "description": "Various tweaks to Craft CMS, largely for getting rid of license nags.",
-        "url": "https://public.alyxia.dev/craft46.patch"
+        "url": "https://public.alyxia.dev/craft48.patch"
       }
     ]
   }

@@ -1,18 +1,17 @@
-columnSuffix: null
-contentColumnType: string
-handle: overviewImage
-instructions: 'Image used in overviews. If empty, uses the header image.'
-name: 'Overview image'
+columnSuffix: lhprtlfv
+handle: videoFile
+instructions: 'Overrides the video link.'
+name: 'Content blocks - Video - Video file'
 searchable: false
 settings:
   allowSelfRelations: false
   allowSubfolders: false
   allowUploads: true
   allowedKinds:
-    - image
+    - video
   branchLimit: null
-  defaultUploadLocationSource: 'volume:839ae2cf-f27c-437d-8638-e143ed7dc237' # Images
-  defaultUploadLocationSubpath: null
+  defaultUploadLocationSource: 'volume:a008d84a-363c-4834-8a89-452dc77f7d1c' # Files
+  defaultUploadLocationSubpath: Video
   localizeRelations: false
   maintainHierarchy: false
   maxRelations: 1
@@ -23,12 +22,13 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:839ae2cf-f27c-437d-8638-e143ed7dc237' # Images
   restrictedLocationSubpath: null
-  selectionLabel: null
+  selectionLabel: 'Add a video'
+  showCardsInGrid: false
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   sources:
-    - 'volume:839ae2cf-f27c-437d-8638-e143ed7dc237' # Images
+    - 'volume:a008d84a-363c-4834-8a89-452dc77f7d1c' # Files
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list

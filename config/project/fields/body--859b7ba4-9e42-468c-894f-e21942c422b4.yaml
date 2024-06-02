@@ -1,0 +1,21 @@
+columnSuffix: ekhybbxc
+handle: body
+instructions: null
+name: 'Content blocks - Text with media - Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: fc102a87-0ea8-4b4e-969a-5c267f78fe3e # Advanced
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: true
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

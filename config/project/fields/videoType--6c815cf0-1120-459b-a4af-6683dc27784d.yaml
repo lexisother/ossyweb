@@ -1,0 +1,43 @@
+columnSuffix: tvbbqbxc
+handle: videoType
+instructions: null
+name: 'Content blocks - Video - Video type'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Embed
+        -
+          - value
+          - embed
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Embed Autoplay'
+        -
+          - value
+          - embedAutoplay
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Modal
+        -
+          - value
+          - modal
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

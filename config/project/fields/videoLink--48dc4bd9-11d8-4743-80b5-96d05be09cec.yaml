@@ -1,0 +1,12 @@
+columnSuffix: qnnervhn
+handle: videoLink
+instructions: null
+name: 'Content blocks - Video - Video link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

@@ -1,5 +1,5 @@
 fieldLayouts:
-  a5c75908-e315-402e-b7c6-f79340e977ed:
+  f8c25569-35a7-41ab-9cdb-b6365face254:
     tabs:
       -
         elementCondition: null
@@ -27,17 +27,28 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: d76e4b7f-db61-413d-8119-9dfa6a889664
+            uid: e49cef65-ced7-46f6-b22a-89535be1d6a6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85c940f6-bd12-409a-ba09-e89808e51588 # Content blocks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c6b6afa-a029-473c-bab9-14eb7e3b4fda
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e206e261-554b-4c58-9ddf-23e5f7c1341d
+        uid: 0dab5f18-44da-4ff2-a3f8-2208c6781bec
         userCondition: null
-handle: default
+handle: templateBlocks_default
 hasTitleField: true
-name: Default
-section: f83161a7-6fcf-4ceb-bebe-56bb0b870f7d # Content pages
+name: 'Template blocks - Default'
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

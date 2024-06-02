@@ -1,12 +1,12 @@
 {
-    "_hash": "f1775bef1db8c1d1ca27bfab6f7ae95f9a8c846297ee39260797f0c6c044829a",
+    "_hash": "18c630f9aed6d13abe356e09358235227ea863a55433ef9c9d2ce86bfcc17660",
     "patches": {
         "craftcms/cms": [
             {
                 "package": "craftcms/cms",
                 "description": "Various tweaks to Craft CMS, largely for getting rid of license nags.",
-                "url": "https://public.alyxia.dev/craft48.patch",
-                "sha256": "e4a8ee825bef9acedfbe37294f5803a935f3217ca24e0b72e7f5fab19435a7dd",
+                "url": "https://public.alyxia.dev/craft5.patch",
+                "sha256": "27b401373c0e23d6e9042bef842f3d8768603022ebbd072fe76f9dea23801bc5",
                 "depth": 1,
                 "extra": {
                     "provenance": "patches-file:patches.json"

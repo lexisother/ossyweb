@@ -1,16 +1,17 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: 7069348a-5b5a-40ca-9a8c-2ecdcdf3a146 # Wiki
 handle: infobox
 instructions: null
 name: Infobox
 searchable: false
 settings:
-  contentTable: '{{%matrixcontent_infobox}}'
-  maxBlocks: 1
-  minBlocks: null
+  entryTypes:
+    - b551bf6a-c784-4830-98d0-cf532519e326
+  maxEntries: 1
+  minEntries: null
   propagationKeyFormat: null
   propagationMethod: all
+  viewMode: blocks
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

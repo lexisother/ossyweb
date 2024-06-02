@@ -1,0 +1,96 @@
+color: null
+fieldLayouts:
+  431d75c2-5261-4d94-9c5e-a4c53784e505:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 48dc4bd9-11d8-4743-80b5-96d05be09cec
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: 'Video link'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64ff73ce-37c3-44f6-aeda-64423b66b682
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6c815cf0-1120-459b-a4af-6683dc27784d
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Video type'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a7fdc6d-13b9-4035-8f31-b9ed3050064b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: be9998d7-eb61-4f23-8102-da26d48440b7
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Video file'
+            providesThumbs: true
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3091a4b9-d9cc-4924-ae86-9ad18e7daf10
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dbb362d2-cf9d-4721-8b28-55f4f8e9cdae
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: 'Placeholder image'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79ee5cf7-28fb-4beb-8bdf-3ba38a0a2519
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 99241eb9-e7a0-4284-806b-ade6b22b7e8a
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Layout
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f907182-6948-4933-8da2-2d2edb81002d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 150e7a90-e50f-4f8d-9269-ec7be71c7d4c
+        userCondition: null
+handle: video
+hasTitleField: false
+icon: null
+name: Video
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

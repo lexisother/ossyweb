@@ -1,0 +1,81 @@
+color: null
+fieldLayouts:
+  65ba7d53-513d-4668-9969-7b0e90beaef1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6fa14b32-f1fa-47a6-8f89-4cfa9f57d553
+            handle: images
+            includeInCards: false
+            instructions: null
+            label: Images
+            providesThumbs: true
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc2870b6-f20e-4866-809c-f72a62bf7b64
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 731fccf2-b21e-40b6-9891-8fe08acad0b4
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: Loop
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 33488228-84d1-4549-be5d-ce5e10801cfd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f2368203-b60a-48b0-9a3f-381e7b52be93
+            handle: imageRatio
+            includeInCards: false
+            instructions: null
+            label: 'Image ratio'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 653089cb-e679-4dd3-ad7a-adf0f203d5a2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f89ccc3e-e3ce-4f6f-8e5b-71e3061ccd6b
+            handle: layout
+            includeInCards: false
+            instructions: null
+            label: Layout
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c658c8d4-3211-4698-bf0b-b353003d4aa1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6e6548c2-a1c2-4da4-9a41-4340c937f23e
+        userCondition: null
+handle: image
+hasTitleField: false
+icon: null
+name: Image
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,7 +1,19 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 75aebda1-d2ea-4d01-8588-dcd06e935fd1 # Default
 handle: wikiPages
+maxAuthors: 1
 name: 'Wiki pages'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb

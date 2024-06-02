@@ -1,0 +1,51 @@
+color: null
+fieldLayouts:
+  32d4f259-9a8d-4f70-87bb-0e10bd903394:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a6c52aef-1e3b-4ac2-819d-af905492c082
+            handle: headerText
+            includeInCards: true
+            instructions: null
+            label: Header
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c37ba9a6-e467-4c73-a2fe-dd111950b149
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 386c9f6a-51d6-4498-ba11-99477985908d
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: Table
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e9eefdcc-5b55-4d7e-bad9-7fb00f89f1af
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 90431127-7272-475f-a1a9-a128c32e7555
+        userCondition: null
+handle: tablesBlock
+hasTitleField: false
+icon: null
+name: 'Infobox - Infobox - Tables Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -134,10 +134,9 @@ fieldLayouts:
         name: Content
         uid: 7b4fa632-9a7a-4d1d-9eaa-a21cda7030de
         userCondition: null
-handle: default
+handle: blogPosts_default
 hasTitleField: true
-name: Default
-section: 83db3eee-a8af-4f85-a62d-8cf58e811498 # Blog posts
+name: 'Blog posts - Default'
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

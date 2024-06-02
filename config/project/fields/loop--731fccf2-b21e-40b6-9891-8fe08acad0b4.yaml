@@ -1,0 +1,12 @@
+columnSuffix: gyvjctcs
+handle: loop
+instructions: 'WARNING: You are recommended to keep this OFF because it can cause a bug in the slider! You''ll see for yourself.'
+name: 'Content blocks - Image - Loop'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

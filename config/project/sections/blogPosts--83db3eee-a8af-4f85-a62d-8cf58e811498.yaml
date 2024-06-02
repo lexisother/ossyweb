@@ -1,7 +1,19 @@
 defaultPlacement: end
 enableVersioning: true
+entryTypes:
+  - 757075c4-b94f-4be4-b55a-de554eb8b122 # Blog posts - Default
 handle: blogPosts
+maxAuthors: 1
 name: 'Blog posts'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
 propagationMethod: all
 siteSettings:
   56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb

@@ -1,8 +1,7 @@
 columnSuffix: null
-contentColumnType: string
-handle: overviewImage
-instructions: 'Image used in overviews. If empty, uses the header image.'
-name: 'Overview image'
+handle: images2
+instructions: null
+name: 'Content blocks - Image - Images'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -15,7 +14,7 @@ settings:
   defaultUploadLocationSubpath: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: 1
+  maxRelations: null
   minRelations: null
   previewMode: full
   restrictFiles: true
@@ -23,7 +22,8 @@ settings:
   restrictedDefaultUploadSubpath: null
   restrictedLocationSource: 'volume:839ae2cf-f27c-437d-8638-e143ed7dc237' # Images
   restrictedLocationSubpath: null
-  selectionLabel: null
+  selectionLabel: 'Add an image'
+  showCardsInGrid: false
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
@@ -31,7 +31,7 @@ settings:
     - 'volume:839ae2cf-f27c-437d-8638-e143ed7dc237' # Images
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: list
+  viewMode: large
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Assets

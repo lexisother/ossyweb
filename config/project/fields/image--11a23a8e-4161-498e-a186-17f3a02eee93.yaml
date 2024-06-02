@@ -1,14 +1,12 @@
-columnSuffix: rdmclqob
-contentColumnType: text
-handle: imageCaption
-instructions: 'Caption for the image.'
-name: Caption
+columnSuffix: iprhmtij
+handle: image
+instructions: null
+name: 'Infobox - Infobox - Image'
 searchable: false
 settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: null
   initialRows: 4
   multiline: false
   placeholder: null

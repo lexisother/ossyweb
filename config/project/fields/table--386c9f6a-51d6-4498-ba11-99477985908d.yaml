@@ -1,0 +1,15 @@
+columnSuffix: vokiuyhk
+handle: table
+instructions: null
+name: 'Infobox - Infobox - Tables - Table'
+searchable: false
+settings:
+  columnsAddRowLabel: null
+  columnsInstructions: null
+  columnsLabel: null
+  rowsAddRowLabel: null
+  rowsInstructions: null
+  rowsLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\tablemaker\fields\TableMakerField

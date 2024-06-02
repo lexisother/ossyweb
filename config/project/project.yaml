@@ -1,4 +1,4 @@
-dateModified: 1717164267
+dateModified: 1717164974
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -18,69 +18,38 @@ fs:
       path: '@webroot/assets/images'
     type: craft\fs\Local
     url: '@web/assets/images'
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 meta:
   __names__:
     0c0a4890-0834-44b7-b457-2a6ce8be38b7: 'Blog tags' # Blog tags
     3db08b57-f3d4-4d95-882a-df1dce6941e0: 'Header image' # Header image
-    3e3f1077-a7fc-4cdc-a11b-963c9139b430: 'Default block' # Default block
     5deffeba-4b22-4b86-bc22-7b847b5d2271: Caption # Caption
     6c1c2f5f-4865-446b-adbe-963bc320004f: 'Blog overview' # Blog overview
-    6c815cf0-1120-459b-a4af-6683dc27784d: 'Video type' # Video type
-    6fa14b32-f1fa-47a6-8f89-4cfa9f57d553: Images # Images
     7d1cde09-7f5f-495f-a4c0-8bd783d3c328: Infobox # Infobox
-    11a23a8e-4161-498e-a186-17f3a02eee93: Image # Image
-    25e87bb8-0f06-4188-8853-66b67a9ed4cd: Title # Title
+    8ba5f4b6-0208-42fe-8e87-e4bfd2098698: 'Infobox - Infobox - Tables Block' # Infobox - Infobox - Tables Block
     38f2889b-aa09-4eb1-9130-20289cb83756: Date # Date
-    48dc4bd9-11d8-4743-80b5-96d05be09cec: 'Video link' # Video link
-    62e1584f-a2b4-4564-8340-b3a9bf31846b: Block # Block
     70b859f6-1e85-44a3-b3ae-e169ebecadb3: Homepage # Homepage
     75aebda1-d2ea-4d01-8588-dcd06e935fd1: Default # Default
     83db3eee-a8af-4f85-a62d-8cf58e811498: 'Blog posts' # Blog posts
     85c940f6-bd12-409a-ba09-e89808e51588: 'Content blocks' # Content blocks
-    86c57f7d-a69e-4d4b-976a-8bd3f43a1a91: Video # Video
     86fefa4d-a9eb-4b7f-a61d-004fe86777ec: Links # Links
-    92a92774-b6e2-451e-966b-1c26b0bcb790: Common # Common
-    153a5705-0659-4f36-85d4-99f781890f90: Blog # Blog
-    386c9f6a-51d6-4498-ba11-99477985908d: Table # Table
-    411ebf8a-0478-40b9-a5fc-8b83e01c14e7: 'Image position' # Image position
-    605e98e8-f8bc-4034-8a2e-97672f873454: 'Text with media' # Text with media
-    731fccf2-b21e-40b6-9891-8fe08acad0b4: Loop # Loop
+    266ce75b-a0da-4e32-9c28-75d172fbd96f: 'Public Schema' # Public Schema
     839ae2cf-f27c-437d-8638-e143ed7dc237: Images # Images
-    859b7ba4-9e42-468c-894f-e21942c422b4: Text # Text
     889dccfc-8cd0-443e-8311-7891f4507e8e: Simple # Simple
     945a92b7-6991-438d-a6e5-83178d2900c1: Author # Author
-    2984f79f-c827-46a5-a2cd-47eb998cde86: Default # Default
-    3069c1ee-90d5-4fb8-ba90-bf50c4231395: Tables # Tables
-    3786f902-0889-45da-8b67-5c42bf51221f: Default # Default
-    6214ac56-b752-499c-95a2-984f94640f8c: 'Image ratio' # Image ratio
-    6241c26f-d8e2-430b-8d82-e337443c3ec0: Text # Text
-    39455dac-8f36-4b6b-a4af-d933d339d918: Text # Text
+    2984f79f-c827-46a5-a2cd-47eb998cde86: 'Content pages - Default' # Content pages - Default
+    3069c1ee-90d5-4fb8-ba90-bf50c4231395: 'Infobox - Infobox - Tables' # Infobox - Infobox - Tables
+    3786f902-0889-45da-8b67-5c42bf51221f: 'Template blocks - Default' # Template blocks - Default
     56778e37-c05d-4b72-9057-434d06389bd1: Ossyweb # Ossyweb
-    99241eb9-e7a0-4284-806b-ade6b22b7e8a: Layout # Layout
     532263ad-20bf-4295-9d54-146d12a40216: 'Wiki pages' # Wiki pages
-    757075c4-b94f-4be4-b55a-de554eb8b122: Default # Default
+    757075c4-b94f-4be4-b55a-de554eb8b122: 'Blog posts - Default' # Blog posts - Default
     1773497c-af9b-4c16-abbf-6bff44a59d6f: 'Blog tags' # Blog tags
-    2778964a-6289-4f09-9401-73f7c2ce1a04: Images # Images
-    7069348a-5b5a-40ca-9a8c-2ecdcdf3a146: Wiki # Wiki
     47572027-2208-4254-bc48-34c65c833928: 'Blog overview' # Blog overview
     a008d84a-363c-4834-8a89-452dc77f7d1c: Files # Files
-    a6c52aef-1e3b-4ac2-819d-af905492c082: Header # Header
-    b551bf6a-c784-4830-98d0-cf532519e326: Infobox # Infobox
-    be9998d7-eb61-4f23-8102-da26d48440b7: 'Video file' # Video file
-    ccc8c64c-9c60-49be-9c7b-2a1911394d95: Image # Image
-    dbb362d2-cf9d-4721-8b28-55f4f8e9cdae: 'Placeholder image' # Placeholder image
     ea4268bc-078c-437b-98b9-849a236599b4: Homepage # Homepage
     ef8f836c-1e3e-4c08-b6ac-678de5511aaa: Ossyweb # Ossyweb
     f4bb6200-34bc-40a3-a178-12160c9f2ddf: 'Overview image' # Overview image
     f80baea6-6de5-4cad-a2a5-3d0df3dca2d2: 'Template blocks' # Template blocks
-    f89ccc3e-e3ce-4f6f-8e5b-71e3061ccd6b: Layout # Layout
     f83161a7-6fcf-4ceb-bebe-56bb0b870f7d: 'Content pages' # Content pages
-    f2368203-b60a-48b0-9a3f-381e7b52be93: 'Image ratio' # Image ratio
-    fa1750fd-9d5e-45a2-a7b7-aa88f3d5b513: Layout # Layout
     fc102a87-0ea8-4b4e-969a-5c267f78fe3e: Advanced # Advanced
 plugins:
   ckeditor:
@@ -107,7 +76,7 @@ plugins:
   super-table:
     edition: standard
     enabled: true
-    schemaVersion: 3.0.0
+    schemaVersion: 4.0.0
   tablemaker:
     edition: standard
     enabled: true
@@ -121,7 +90,7 @@ system:
   live: true
   name: Ossyweb
   retryDuration: null
-  schemaVersion: 4.5.3.0
+  schemaVersion: 5.0.0.20
   timeZone: Europe/Amsterdam
 users:
   allowPublicRegistration: false

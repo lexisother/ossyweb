@@ -61,7 +61,6 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Default
-section: 532263ad-20bf-4295-9d54-146d12a40216 # Wiki pages
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

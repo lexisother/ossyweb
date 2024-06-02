@@ -49,7 +49,6 @@ fieldLayouts:
 handle: blogOverview
 hasTitleField: false
 name: 'Blog overview'
-section: 47572027-2208-4254-bc48-34c65c833928 # Blog overview
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

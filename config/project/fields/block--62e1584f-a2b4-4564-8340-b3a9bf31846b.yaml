@@ -1,22 +1,23 @@
 columnSuffix: null
-contentColumnType: string
-handle: blogTags
+handle: block
 instructions: null
-name: 'Blog tags'
-searchable: true
+name: 'Content blocks - Default block - Block'
+searchable: false
 settings:
   allowSelfRelations: false
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: null
+  maxRelations: 1
   minRelations: null
   selectionLabel: null
+  showCardsInGrid: false
   showSiteMenu: true
-  source: 'group:0c0a4890-0834-44b7-b457-2a6ce8be38b7' # Blog tags
+  sources:
+    - 'section:f80baea6-6de5-4cad-a2a5-3d0df3dca2d2' # Template blocks
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Categories
+type: craft\fields\Entries

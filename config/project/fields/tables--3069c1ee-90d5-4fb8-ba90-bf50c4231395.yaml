@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: tables
+instructions: null
+name: 'Infobox - Infobox - Tables'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 8ba5f4b6-0208-42fe-8e87-e4bfd2098698 # Infobox - Infobox - Tables Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

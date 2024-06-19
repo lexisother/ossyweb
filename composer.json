@@ -1,8 +1,8 @@
 {
   "require": {
     "clubstudioltd/craft-inline-svg": "2.1.0",
-    "craftcms/ckeditor": "4.0.6",
-    "craftcms/cms": "^5.0.0",
+    "craftcms/ckeditor": "4.1.0",
+    "craftcms/cms": "5.2.2",
     "hybridinteractive/craft-position-fieldtype": "5.0.0",
     "nystudio107/craft-minify": "5.0.0",
     "nystudio107/craft-vite": "5.0.0",

@@ -14,6 +14,9 @@ previewTargets:
       -
         - urlFormat
         - '{url}'
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
   56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb

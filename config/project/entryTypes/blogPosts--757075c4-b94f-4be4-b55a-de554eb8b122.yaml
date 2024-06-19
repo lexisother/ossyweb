@@ -57,7 +57,7 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 3f2fea6f-c4dd-4e3d-997d-9cf31b298a6c

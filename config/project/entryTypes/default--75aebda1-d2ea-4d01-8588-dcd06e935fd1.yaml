@@ -36,6 +36,21 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: b553fa53-583f-4453-a2a5-5d729fc1a4dc # Project
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73cf7128-cd68-48b3-90b1-6c85ddede020
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 7d1cde09-7f5f-495f-a4c0-8bd783d3c328 # Infobox
             handle: null
             includeInCards: false
@@ -69,12 +84,12 @@ fieldLayouts:
         userCondition: null
 handle: default
 hasTitleField: true
-icon: null
+icon: ''
 name: Default
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: null
+titleFormat: ''
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

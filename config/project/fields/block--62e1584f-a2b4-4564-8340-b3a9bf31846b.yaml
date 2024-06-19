@@ -1,7 +1,7 @@
 columnSuffix: null
 handle: block
 instructions: null
-name: 'Content blocks - Default block - Block'
+name: Block
 searchable: false
 settings:
   allowSelfRelations: false
@@ -17,7 +17,7 @@ settings:
     - 'section:f80baea6-6de5-4cad-a2a5-3d0df3dca2d2' # Template blocks
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: null
+  viewMode: list
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Entries

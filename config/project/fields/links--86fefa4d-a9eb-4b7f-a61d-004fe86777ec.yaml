@@ -1,12 +1,10 @@
 columnSuffix: sydmcloj
-contentColumnType: text
 handle: links
 instructions: 'Sources/"See more" esque links section.'
 name: Links
 searchable: false
 settings:
   addRowLabel: 'Add a row'
-  columnType: text
   columns:
     __assoc__:
       -

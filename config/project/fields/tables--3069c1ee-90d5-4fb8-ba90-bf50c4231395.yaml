@@ -4,6 +4,7 @@ instructions: null
 name: 'Infobox - Infobox - Tables'
 searchable: false
 settings:
+  contentTable: ''
   createButtonLabel: null
   entryTypes:
     - 8ba5f4b6-0208-42fe-8e87-e4bfd2098698 # Infobox - Infobox - Tables Block

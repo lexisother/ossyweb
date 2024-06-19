@@ -1,16 +1,19 @@
 columnSuffix: null
-contentColumnType: string
 handle: infobox
 instructions: null
 name: Infobox
 searchable: false
 settings:
+  createButtonLabel: null
   entryTypes:
-    - b551bf6a-c784-4830-98d0-cf532519e326
+    - b551bf6a-c784-4830-98d0-cf532519e326 # Infobox
+  includeTableView: false
   maxEntries: 1
   minEntries: null
+  pageSize: null
   propagationKeyFormat: null
   propagationMethod: all
+  showCardsInGrid: false
   viewMode: blocks
 translationKeyFormat: null
 translationMethod: site

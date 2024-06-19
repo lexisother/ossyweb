@@ -1,3 +1,4 @@
+color: null
 fieldLayouts:
   add8c540-e329-4996-a142-833f38b02240:
     tabs:
@@ -12,6 +13,7 @@ fieldLayouts:
             disabled: false
             elementCondition: null
             id: null
+            includeInCards: false
             inputType: null
             instructions: null
             label: null
@@ -20,6 +22,7 @@ fieldLayouts:
             name: null
             orientation: null
             placeholder: null
+            providesThumbs: false
             readonly: false
             requirable: false
             size: null
@@ -34,8 +37,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 945a92b7-6991-438d-a6e5-83178d2900c1 # Author
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -46,8 +52,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 38f2889b-aa09-4eb1-9130-20289cb83756 # Date
+            handle: null
+            includeInCards: false
             instructions: 'The date this blog post was authored. If unprovided, the entry''s creation date will be used.'
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -58,8 +67,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 1773497c-af9b-4c16-abbf-6bff44a59d6f # Blog tags
+            handle: null
+            includeInCards: false
             instructions: null
             label: Tags
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -75,8 +87,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 3db08b57-f3d4-4d95-882a-df1dce6941e0 # Header image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -92,8 +107,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 86fefa4d-a9eb-4b7f-a61d-004fe86777ec # Links
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -110,8 +128,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: f4bb6200-34bc-40a3-a178-12160c9f2ddf # Overview image
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -122,8 +143,11 @@ fieldLayouts:
           -
             elementCondition: null
             fieldUid: 85c940f6-bd12-409a-ba09-e89808e51588 # Content blocks
+            handle: null
+            includeInCards: false
             instructions: null
             label: null
+            providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
@@ -134,13 +158,14 @@ fieldLayouts:
         name: Content
         uid: 7b4fa632-9a7a-4d1d-9eaa-a21cda7030de
         userCondition: null
-handle: blogPosts_default
+handle: blogPosts
 hasTitleField: true
-name: 'Blog posts - Default'
+icon: null
+name: 'Blog posts'
+showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

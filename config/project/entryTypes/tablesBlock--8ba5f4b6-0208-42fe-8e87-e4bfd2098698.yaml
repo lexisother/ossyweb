@@ -6,23 +6,52 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
             elementCondition: null
-            fieldUid: a6c52aef-1e3b-4ac2-819d-af905492c082
-            handle: headerText
-            includeInCards: true
+            id: null
+            includeInCards: false
+            inputType: null
             instructions: null
-            label: Header
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
             providesThumbs: false
-            required: true
+            readonly: false
+            requirable: false
+            size: null
+            step: null
             tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: c37ba9a6-e467-4c73-a2fe-dd111950b149
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e36d3e76-6da4-422f-a7a5-1aa3a333970b
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 386c9f6a-51d6-4498-ba11-99477985908d
+            fieldUid: 25e87bb8-0f06-4188-8853-66b67a9ed4cd # Header text
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 781f8eb3-0b59-40bf-bd80-b9db70e97457
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 386c9f6a-51d6-4498-ba11-99477985908d # Infobox - Infobox - Tables - Table
             handle: null
             includeInCards: false
             instructions: null

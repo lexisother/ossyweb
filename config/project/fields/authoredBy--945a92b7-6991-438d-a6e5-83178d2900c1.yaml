@@ -1,5 +1,4 @@
 columnSuffix: czrtlqju
-contentColumnType: text
 handle: authoredBy
 instructions: 'The author of the post.'
 name: Author
@@ -8,7 +7,6 @@ settings:
   byteLimit: null
   charLimit: null
   code: false
-  columnType: null
   initialRows: 4
   multiline: false
   placeholder: Ossian

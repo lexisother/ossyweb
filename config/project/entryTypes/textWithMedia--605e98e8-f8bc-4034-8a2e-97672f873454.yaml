@@ -6,8 +6,37 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
             elementCondition: null
-            fieldUid: 859b7ba4-9e42-468c-894f-e21942c422b4
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9962751c-10cc-48cb-90ae-a9ea7c495f78
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 859b7ba4-9e42-468c-894f-e21942c422b4 # Text
             handle: null
             includeInCards: true
             instructions: null
@@ -22,22 +51,22 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 2778964a-6289-4f09-9401-73f7c2ce1a04
+            fieldUid: 6fa14b32-f1fa-47a6-8f89-4cfa9f57d553 # Images
             handle: null
             includeInCards: false
             instructions: null
-            label: Images
+            label: null
             providesThumbs: true
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 3261ecf7-a3e3-445e-9bec-9a43c0258905
+            uid: d5bad9de-479d-408a-a479-e2ecca74b43f
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 6214ac56-b752-499c-95a2-984f94640f8c
+            fieldUid: 6214ac56-b752-499c-95a2-984f94640f8c # Image ratio
             handle: null
             includeInCards: false
             instructions: null
@@ -52,7 +81,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 411ebf8a-0478-40b9-a5fc-8b83e01c14e7
+            fieldUid: 411ebf8a-0478-40b9-a5fc-8b83e01c14e7 # Content blocks - Text with media - Image position
             handle: null
             includeInCards: false
             instructions: null
@@ -67,16 +96,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: fa1750fd-9d5e-45a2-a7b7-aa88f3d5b513
-            handle: layout
+            fieldUid: 6cf7cf3c-bc05-4ed6-9ff3-3062822901f4 # Layout
+            handle: null
             includeInCards: false
             instructions: null
-            label: Layout
+            label: null
             providesThumbs: false
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c4e7809a-40d7-4920-91ee-37b1ca64b9a1
+            uid: 37305171-1be5-45c1-97d1-061146d93035
             userCondition: null
             warning: null
             width: 100

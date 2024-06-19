@@ -6,17 +6,46 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
             elementCondition: null
-            fieldUid: 6241c26f-d8e2-430b-8d82-e337443c3ec0
-            handle: body
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 23ab6ada-19d3-4430-a3b5-0810987ecb87
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 859b7ba4-9e42-468c-894f-e21942c422b4 # Text
+            handle: null
             includeInCards: true
             instructions: null
-            label: Text
+            label: null
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: eae47944-521d-4918-b56d-6e05c4d47411
+            uid: 60bf2737-7e68-4f61-8406-809f65563135
             userCondition: null
             warning: null
             width: 100

@@ -1,7 +1,4 @@
 columnSuffix: hfdhjcvy
-contentColumnType:
-  - 'date:datetime'
-  - 'tz:string'
 handle: date
 instructions: 'The date this blog post was authored. If unprovided, the entry''s creation date will be used.'
 name: Date

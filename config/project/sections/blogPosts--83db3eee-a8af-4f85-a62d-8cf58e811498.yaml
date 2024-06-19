@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 757075c4-b94f-4be4-b55a-de554eb8b122 # Blog posts - Default
+  - 757075c4-b94f-4be4-b55a-de554eb8b122 # Blog posts
 handle: blogPosts
 maxAuthors: 1
 name: 'Blog posts'
@@ -20,5 +20,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: _sections/blog/entry
-    uriFormat: 'blog/{slug}'
+    uriFormat: '{project.one().slug}/blog/{slug}'
 type: channel

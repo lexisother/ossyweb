@@ -1,10 +1,10 @@
 {# Image #}
 {% if item.overviewImage|length > 0 %}
-{% set image = item.overviewImage.one() %}
-{% elseif item.heroImages|length > 0 %}
-{% set image = item.heroImages.one() %}
+    {% set image = item.overviewImage.one() %}
+{% elseif item.heroImage %}
+    {% set image = item.heroImage %}
 {% else %}
-{% set image = general.fallbackImg.one() %}
+    {% set image = general.fallbackImg.one() %}
 {% endif %}
 
 {# Url #}
@@ -24,14 +24,14 @@
 
     <h3 class="text-black mb-2 font-bold pt-0 text-xl md:text-2.5xl leading-tight mt-1">{{ item.title }}</h3>
 
-{#    {% if item.overviewText|length > 0 %}#}
-{#        <div class="text-grayMedium font-normal">{{ item.overviewText }}</div>#}
-{#    {% endif %}#}
+    {#    {% if item.overviewText|length > 0 %} #}
+    {#        <div class="text-grayMedium font-normal">{{ item.overviewText }}</div> #}
+    {#    {% endif %} #}
 
     <div class="flex mt-4 md:mt-6 items-center">
         <div>
             {% if item.authoredBy|length > 0 %}
-                <p class="text-primary">{{item.authoredBy}}</p>
+                <p class="text-primary">{{ item.authoredBy }}</p>
             {% endif %}
             <p class="text-grayDarker">{{ item.date|date("d F, Y") }}</p>
         </div>

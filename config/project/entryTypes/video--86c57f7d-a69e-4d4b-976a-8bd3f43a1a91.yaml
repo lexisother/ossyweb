@@ -6,8 +6,37 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
             elementCondition: null
-            fieldUid: 48dc4bd9-11d8-4743-80b5-96d05be09cec
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0d72e502-bc55-4421-8200-e655b177847e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 48dc4bd9-11d8-4743-80b5-96d05be09cec # Content blocks - Video - Video link
             handle: null
             includeInCards: true
             instructions: null
@@ -22,7 +51,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 6c815cf0-1120-459b-a4af-6683dc27784d
+            fieldUid: 6c815cf0-1120-459b-a4af-6683dc27784d # Content blocks - Video - Video type
             handle: null
             includeInCards: false
             instructions: null
@@ -37,7 +66,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: be9998d7-eb61-4f23-8102-da26d48440b7
+            fieldUid: be9998d7-eb61-4f23-8102-da26d48440b7 # Content blocks - Video - Video file
             handle: null
             includeInCards: false
             instructions: null
@@ -52,7 +81,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: dbb362d2-cf9d-4721-8b28-55f4f8e9cdae
+            fieldUid: dbb362d2-cf9d-4721-8b28-55f4f8e9cdae # Content blocks - Video - Placeholder image
             handle: null
             includeInCards: false
             instructions: null
@@ -67,16 +96,16 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 99241eb9-e7a0-4284-806b-ade6b22b7e8a
+            fieldUid: 6cf7cf3c-bc05-4ed6-9ff3-3062822901f4 # Layout
             handle: null
             includeInCards: false
             instructions: null
-            label: Layout
+            label: null
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 5f907182-6948-4933-8da2-2d2edb81002d
+            uid: 96d13488-eb76-4790-8677-4601723ef9c2
             userCondition: null
             warning: null
             width: 100

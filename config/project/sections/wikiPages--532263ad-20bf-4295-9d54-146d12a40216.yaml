@@ -20,5 +20,5 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: _sections/wiki/entry
-    uriFormat: 'wiki/{slug}'
+    uriFormat: '{project.one().slug}/wiki/{slug}'
 type: channel

@@ -6,8 +6,37 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
             elementCondition: null
-            fieldUid: 6fa14b32-f1fa-47a6-8f89-4cfa9f57d553
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b27af010-e2be-43d2-ac66-8bad3b865c8a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6fa14b32-f1fa-47a6-8f89-4cfa9f57d553 # Images
             handle: images
             includeInCards: false
             instructions: null
@@ -22,7 +51,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 731fccf2-b21e-40b6-9891-8fe08acad0b4
+            fieldUid: 731fccf2-b21e-40b6-9891-8fe08acad0b4 # Content blocks - Image - Loop
             handle: null
             includeInCards: true
             instructions: null
@@ -37,31 +66,31 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: f2368203-b60a-48b0-9a3f-381e7b52be93
-            handle: imageRatio
+            fieldUid: 6214ac56-b752-499c-95a2-984f94640f8c # Image ratio
+            handle: null
             includeInCards: false
             instructions: null
-            label: 'Image ratio'
+            label: null
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 653089cb-e679-4dd3-ad7a-adf0f203d5a2
+            uid: c670e22b-3cd2-42f4-bc6f-8c4880c3dca4
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f89ccc3e-e3ce-4f6f-8e5b-71e3061ccd6b
-            handle: layout
+            fieldUid: 6cf7cf3c-bc05-4ed6-9ff3-3062822901f4 # Layout
+            handle: null
             includeInCards: false
             instructions: null
-            label: Layout
+            label: null
             providesThumbs: false
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c658c8d4-3211-4698-bf0b-b353003d4aa1
+            uid: 311d4975-355c-4979-88ef-7c2a08314b3c
             userCondition: null
             warning: null
             width: 100

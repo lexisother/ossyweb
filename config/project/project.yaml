@@ -1,4 +1,4 @@
-dateModified: 1718815086
+dateModified: 1718815449
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -93,10 +93,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  super-table:
-    edition: standard
-    enabled: true
-    schemaVersion: 4.0.0
   tablemaker:
     edition: standard
     enabled: true

@@ -7,7 +7,6 @@
     "nystudio107/craft-minify": "5.0.0",
     "nystudio107/craft-vite": "5.0.0",
     "spacecatninja/imager-x": "5.0.0",
-    "verbb/super-table": "4.0.0",
     "verbb/tablemaker": "5.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },

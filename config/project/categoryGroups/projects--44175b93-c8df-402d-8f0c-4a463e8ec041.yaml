@@ -1,6 +1,6 @@
 defaultPlacement: end
 fieldLayouts:
-  5d25ad62-915d-41a1-9faf-9589e3b64954:
+  42c3846d-ab3f-4c45-8883-12ee957626a7:
     tabs:
       -
         elementCondition: null
@@ -30,7 +30,7 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\TitleField
-            uid: 1f2fa3ca-d606-4c74-9321-130464f35d33
+            uid: c02a60e1-e712-4ba3-b2ec-a3f366e4e1ad
             userCondition: null
             warning: null
             width: 100
@@ -45,20 +45,20 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1e1b3192-a8e8-4bf4-ac9f-b5af34ca7c17
+            uid: fb21132e-0627-4b0d-b366-1019ac676d58
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 41c93138-29f3-44aa-933b-2f2d371a8f81
+        uid: e2bc1cd0-7aeb-4fe9-b8c3-8f50c83153d4
         userCondition: null
-handle: blogTags
-name: 'Blog tags'
+handle: projects
+name: Projects
 siteSettings:
   56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb
-    hasUrls: true
+    hasUrls: false
     template: null
-    uriFormat: 'blog/tags/{slug}'
+    uriFormat: null
 structure:
   maxLevels: null
-  uid: 6491ef80-a2a3-408c-bab9-e132aa81eb60
+  uid: f327c3b8-4417-484e-963c-cb37461c5ceb

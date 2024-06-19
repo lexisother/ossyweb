@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: project
+instructions: null
+name: Project
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: 'Select a project'
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:44175b93-c8df-402d-8f0c-4a463e8ec041' # Projects
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

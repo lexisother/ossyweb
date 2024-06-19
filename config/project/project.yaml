@@ -1,4 +1,4 @@
-dateModified: 1718815449
+dateModified: 1718818888
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -23,6 +23,7 @@ meta:
     0c0a4890-0834-44b7-b457-2a6ce8be38b7: 'Blog tags' # Blog tags
     3db08b57-f3d4-4d95-882a-df1dce6941e0: 'Header image' # Header image
     3e3f1077-a7fc-4cdc-a11b-963c9139b430: 'Default block' # Default block
+    4a2babac-f97c-4e71-8e7e-d6dfec11cc7e: Description # Description
     5deffeba-4b22-4b86-bc22-7b847b5d2271: Caption # Caption
     6c1c2f5f-4865-446b-adbe-963bc320004f: 'Blog overview' # Blog overview
     6c815cf0-1120-459b-a4af-6683dc27784d: 'Content blocks - Video - Video type' # Content blocks - Video - Video type
@@ -55,6 +56,7 @@ meta:
     6214ac56-b752-499c-95a2-984f94640f8c: 'Image ratio' # Image ratio
     7563f668-17c4-4e35-8498-c58be8ded69c: 'Public Schema' # Public Schema
     39455dac-8f36-4b6b-a4af-d933d339d918: Text # Text
+    44175b93-c8df-402d-8f0c-4a463e8ec041: Projects # Projects
     56778e37-c05d-4b72-9057-434d06389bd1: Ossyweb # Ossyweb
     532263ad-20bf-4295-9d54-146d12a40216: 'Wiki pages' # Wiki pages
     757075c4-b94f-4be4-b55a-de554eb8b122: 'Blog posts' # Blog posts
@@ -62,6 +64,7 @@ meta:
     47572027-2208-4254-bc48-34c65c833928: 'Blog overview' # Blog overview
     a008d84a-363c-4834-8a89-452dc77f7d1c: Files # Files
     b551bf6a-c784-4830-98d0-cf532519e326: Infobox # Infobox
+    b553fa53-583f-4453-a2a5-5d729fc1a4dc: Project # Project
     be9998d7-eb61-4f23-8102-da26d48440b7: 'Content blocks - Video - Video file' # Content blocks - Video - Video file
     ccc8c64c-9c60-49be-9c7b-2a1911394d95: Image # Image
     dbb362d2-cf9d-4721-8b28-55f4f8e9cdae: 'Content blocks - Video - Placeholder image' # Content blocks - Video - Placeholder image

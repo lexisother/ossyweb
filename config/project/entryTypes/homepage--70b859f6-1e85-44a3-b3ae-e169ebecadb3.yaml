@@ -36,6 +36,42 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 4a2babac-f97c-4e71-8e7e-d6dfec11cc7e # Description
+            handle: introduction
+            includeInCards: false
+            instructions: 'Introduce yourself!'
+            label: Introduction
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cff0ca56-0111-48bc-9792-c8860c257136
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b653c91e-0112-4c5b-aff3-7db16183aa7f # Socials
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d00690d3-7754-4991-99d6-a819f962bfdf
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: 5f16205f-6e19-4548-a871-66d767bd23e8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
             fieldUid: 85c940f6-bd12-409a-ba09-e89808e51588 # Content blocks
             handle: null
             includeInCards: false
@@ -50,11 +86,11 @@ fieldLayouts:
             warning: null
             width: 100
         name: Content
-        uid: 5f16205f-6e19-4548-a871-66d767bd23e8
+        uid: 00473311-2224-47d4-a1d3-65486288c3fb
         userCondition: null
 handle: homepage
 hasTitleField: true
-icon: null
+icon: ''
 name: Homepage
 showSlugField: true
 showStatusField: true

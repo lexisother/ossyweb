@@ -45,7 +45,7 @@ jobs:
       - name: Rsync files to staging
         uses: burnett01/rsync-deployments@6.0.0
         with:
-          switches: -avzr --delete --exclude=/.git/ --exclude=/.pnpm-store --exclude=/node_modules
+          switches: -vzrO --no-perms --delete --exclude=/.git/ --exclude=/.pnpm-store --exclude=/node_modules
           path: .
           remote_path: ${{ secrets.REMOTE_ROOT }}
           remote_host: ${{ secrets.REMOTE_HOST }}

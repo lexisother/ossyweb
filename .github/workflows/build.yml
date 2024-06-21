@@ -27,7 +27,7 @@ jobs:
       - name: Install composer deps
         run: composer install --no-dev --no-progress --no-interaction --prefer-dist --optimize-autoloader
 
-      - name: Backup important files
+      - name: Backup important files & prepare
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.REMOTE_HOST }}
@@ -38,6 +38,8 @@ jobs:
             mv ${{ secrets.REMOTE_ROOT }}/.env ${{ secrets.REMOTE_ROOT }}/..
             mv ${{ secrets.REMOTE_ROOT }}/docker-compose.yml ${{ secrets.REMOTE_ROOT }}/..
             mv ${{ secrets.REMOTE_ROOT }}/Dockerfile ${{ secrets.REMOTE_ROOT }}/..
+            cd ${{ secrets.REMOTE_ROOT }}
+            chmod -R o+w {storage,web/{cpresources,imager,assets}}
           script_stop: true
 
       - name: Rsync files to staging

@@ -39,7 +39,7 @@ jobs:
             mv ${{ secrets.REMOTE_ROOT }}/docker-compose.yml ${{ secrets.REMOTE_ROOT }}/..
             mv ${{ secrets.REMOTE_ROOT }}/Dockerfile ${{ secrets.REMOTE_ROOT }}/..
             cd ${{ secrets.REMOTE_ROOT }}
-            echo "${{ secrets.REMOTE_PASS }}" | sudo -S chmod -R o+w {config,storage,web/{cpresources,imager,assets}}
+            echo "${{ secrets.REMOTE_PASS }}" | sudo -S chmod -R o+w {config,storage,web/{cpresources,imager,assets}} || exit 0
           script_stop: true
 
       - name: Rsync files to staging

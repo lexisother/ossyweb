@@ -62,7 +62,7 @@ jobs:
           key: ${{ secrets.REMOTE_KEY }}
           script: |
             mv ${{ secrets.REMOTE_ROOT }}/../.env ${{ secrets.REMOTE_ROOT }}
-            mv ${{ secrets.REMOTE_ROOT }}/../docker-compose.yml ${{ secrets.REMOTE_ROOT }}
+            mv -f ${{ secrets.REMOTE_ROOT }}/../docker-compose.yml ${{ secrets.REMOTE_ROOT }}
             mv ${{ secrets.REMOTE_ROOT }}/../Dockerfile ${{ secrets.REMOTE_ROOT }}
           script_stop: true
 

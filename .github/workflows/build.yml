@@ -1,0 +1,89 @@
+name: Deploy to prod
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    name: Build & deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "21.x"
+          cache: "pnpm"
+
+      - name: Vite build
+        run: |
+          pnpm install
+          pnpm run build
+
+      - name: Install composer deps
+        run: composer install --no-dev --no-progress --no-interaction --prefer-dist --optimize-autoloader
+
+      - name: Backup important files
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          port: ${{ secrets.REMOTE_PORT }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_KEY }}
+          script: |
+            mv ${{ secrets.REMOTE_ROOT }}/.env ${{ secrets.REMOTE_ROOT }}/..
+            mv ${{ secrets.REMOTE_ROOT }}/docker-compose.yml ${{ secrets.REMOTE_ROOT }}/..
+            mv ${{ secrets.REMOTE_ROOT }}/Dockerfile ${{ secrets.REMOTE_ROOT }}/..
+          script_stop: true
+
+      - name: Rsync files to staging
+        uses: burnett01/rsync-deployments@6.0.0
+        with:
+          switches: -avzr --delete --exclude=/.git/ --exclude=/.pnpm-store --exclude=/node_modules
+          path: .
+          remote_path: ${{ secrets.REMOTE_ROOT }}
+          remote_host: ${{ secrets.REMOTE_HOST }}
+          remote_port: ${{ secrets.REMOTE_PORT }}
+          remote_user: ${{ secrets.REMOTE_USER }}
+          remote_key: ${{ secrets.REMOTE_KEY }}
+
+      - name: Restore important files
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          port: ${{ secrets.REMOTE_PORT }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_KEY }}
+          script: |
+            mv ${{ secrets.REMOTE_ROOT }}/../.env ${{ secrets.REMOTE_ROOT }}
+            mv ${{ secrets.REMOTE_ROOT }}/../docker-compose.yml ${{ secrets.REMOTE_ROOT }}
+            mv ${{ secrets.REMOTE_ROOT }}/../Dockerfile ${{ secrets.REMOTE_ROOT }}
+          script_stop: true
+
+      - name: Restart Docker containers
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          port: ${{ secrets.REMOTE_PORT }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_KEY }}
+          script: cd ${{ secrets.REMOTE_ROOT }} && docker compose down && docker compose up
+          script_stop: true
+
+      - name: Prepare Craft
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          port: ${{ secrets.REMOTE_PORT }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.REMOTE_KEY }}
+          script: |
+            cd ${{ secrets.REMOTE_ROOT }}
+            docker compose exec web php craft db/backup
+            docker compose exec web php craft clear-caches/all
+            docker compose exec web php craft up
+          script_stop: true

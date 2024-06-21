@@ -30,6 +30,39 @@ settings:
                   __assoc__:
                     -
                       - label
+                      - Facebook
+                    -
+                      - value
+                      - facebook
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Instagram
+                    -
+                      - value
+                      - instagram
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - Twitter
+                    -
+                      - value
+                      - twitter
+                    -
+                      - default
+                      - false
+                -
+                  __assoc__:
+                    -
+                      - label
                       - Mastodon
                     -
                       - value
@@ -45,28 +78,6 @@ settings:
                     -
                       - value
                       - spotify
-                    -
-                      - default
-                      - false
-                -
-                  __assoc__:
-                    -
-                      - label
-                      - Facebook
-                    -
-                      - value
-                      - facebook
-                    -
-                      - default
-                      - false
-                -
-                  __assoc__:
-                    -
-                      - label
-                      - Twitter
-                    -
-                      - value
-                      - twitter
                     -
                       - default
                       - false

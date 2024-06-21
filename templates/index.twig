@@ -6,9 +6,15 @@
 
 {% block content %}
     <div class="flex flex-row border-4 border-black rounded-2xl">
-        <div class="flex-grow p-6 text-3xl">intro</div>
+        <div class="flex-grow p-6 content-center text-3xl">{{ entry.introduction }}</div>
         <div class="border border-black border-x-2"></div>
-        <div class="p-6 text-3xl">socials</div>
+        <div class="grid grid-cols-3 p-6 text-3xl">
+            {% for social in entry.socials %}
+                <a href="{{ social.url }}">
+                    {{ inlineSvg('socials/'~social.platform, 'w-12 h-12', { sanitize: true, namespace: true }) }}
+                </a>
+            {% endfor %}
+        </div>
     </div>
 
     <div class="text-3xl">bookshelf:</div>

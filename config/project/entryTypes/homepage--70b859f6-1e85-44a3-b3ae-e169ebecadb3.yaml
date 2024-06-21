@@ -1,4 +1,4 @@
-color: null
+color: violet
 fieldLayouts:
   dcfff9e5-3ee2-4c0e-a4f3-65c198741350:
     tabs:
@@ -42,7 +42,7 @@ fieldLayouts:
             instructions: 'Introduce yourself!'
             label: Introduction
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: cff0ca56-0111-48bc-9792-c8860c257136
@@ -57,7 +57,7 @@ fieldLayouts:
             instructions: null
             label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: d00690d3-7754-4991-99d6-a819f962bfdf
@@ -90,7 +90,7 @@ fieldLayouts:
         userCondition: null
 handle: homepage
 hasTitleField: true
-icon: ''
+icon: house
 name: Homepage
 showSlugField: true
 showStatusField: true

@@ -7,22 +7,6 @@
 {% endblock headLinks %}
 
 {% block content %}
-    <div class="flex flex-row items-center mb-8 text-white bg-[#19283A] border-2 border-[#99F] shadow-[5px_5px_0px_0px_#A2ADDA]">
-        {% with { pfp: entry.profilePicture.one() } %}
-            {% if pfp is not null %}
-                <img class="h-24 w-24 mx-4" src="{{ pfp.url }}" />
-            {% endif %}
-        {% endwith %}
-        <div class="flex-grow w-1/2 p-2 content-center text-2xl">{{ entry.introduction }}</div>
-        <div class="grid grid-cols-4 gap-2 align-center p-6">
-            {% for social in entry.socials %}
-                <a href="{{ social.url }}">
-                    {{ inlineSvg('socials/'~social.platform, 'w-8 h-8 fill-white', { sanitize: true, namespace: true }) }}
-                </a>
-            {% endfor %}
-        </div>
-    </div>
-
     <div class="flex flex-row gap-2 place-content-evenly">
         {% for project in projects %}
             <div

@@ -1,4 +1,4 @@
-dateModified: 1719146963
+dateModified: 1719171922
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -31,6 +31,7 @@ meta:
     6fa14b32-f1fa-47a6-8f89-4cfa9f57d553: Images # Images
     7d1cde09-7f5f-495f-a4c0-8bd783d3c328: Infobox # Infobox
     8ba5f4b6-0208-42fe-8e87-e4bfd2098698: 'Infobox - Infobox - Tables Block' # Infobox - Infobox - Tables Block
+    9a4bbe45-ebdc-4eef-837f-27294c5bcdf4: Settings # Settings
     11a23a8e-4161-498e-a186-17f3a02eee93: 'Infobox - Infobox - Image' # Infobox - Infobox - Image
     25e87bb8-0f06-4188-8853-66b67a9ed4cd: 'Header text' # Header text
     38f2889b-aa09-4eb1-9130-20289cb83756: Date # Date
@@ -41,7 +42,7 @@ meta:
     83db3eee-a8af-4f85-a62d-8cf58e811498: 'Blog posts' # Blog posts
     85c940f6-bd12-409a-ba09-e89808e51588: 'Content blocks' # Content blocks
     86c57f7d-a69e-4d4b-976a-8bd3f43a1a91: Video # Video
-    86fefa4d-a9eb-4b7f-a61d-004fe86777ec: Footnotes # Footnotes
+    86fefa4d-a9eb-4b7f-a61d-004fe86777ec: Links # Links
     386c9f6a-51d6-4498-ba11-99477985908d: 'Infobox - Infobox - Tables - Table' # Infobox - Infobox - Tables - Table
     411ebf8a-0478-40b9-a5fc-8b83e01c14e7: 'Content blocks - Text with media - Image position' # Content blocks - Text with media - Image position
     605e98e8-f8bc-4034-8a2e-97672f873454: 'Text with media' # Text with media

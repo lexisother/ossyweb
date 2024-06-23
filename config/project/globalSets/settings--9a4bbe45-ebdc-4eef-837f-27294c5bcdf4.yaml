@@ -1,0 +1,57 @@
+fieldLayouts:
+  e4956de1-cf61-4356-83ef-0a0d1a9ad4c3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3db08b57-f3d4-4d95-882a-df1dce6941e0 # Header image
+            handle: profilePicture
+            includeInCards: false
+            instructions: null
+            label: 'Profile picture'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e41b9bb-1848-4846-bcd5-691a008c4b05
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4a2babac-f97c-4e71-8e7e-d6dfec11cc7e # Description
+            handle: introduction
+            includeInCards: false
+            instructions: 'Introduce yourself!'
+            label: Introduction
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36b4820f-6b7d-4acb-aac6-f7f0ef2f07c9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b653c91e-0112-4c5b-aff3-7db16183aa7f # Socials
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 13979921-75b2-438b-b688-3c9e0fc0973b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: 639a72fb-d71f-40a1-824d-935de5b6ee03
+        userCondition: null
+handle: settings
+name: Settings
+sortOrder: 1

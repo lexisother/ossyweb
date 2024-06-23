@@ -6,11 +6,11 @@ searchable: false
 settings:
   createButtonLabel: null
   entryTypes:
-    - 3e3f1077-a7fc-4cdc-a11b-963c9139b430 # Default block
-    - 86c57f7d-a69e-4d4b-976a-8bd3f43a1a91 # Video
-    - 605e98e8-f8bc-4034-8a2e-97672f873454 # Text with media
     - 39455dac-8f36-4b6b-a4af-d933d339d918 # Text
+    - 605e98e8-f8bc-4034-8a2e-97672f873454 # Text with media
     - ccc8c64c-9c60-49be-9c7b-2a1911394d95 # Image
+    - 86c57f7d-a69e-4d4b-976a-8bd3f43a1a91 # Video
+    - 3e3f1077-a7fc-4cdc-a11b-963c9139b430 # Default block
   includeTableView: false
   maxEntries: null
   minEntries: null

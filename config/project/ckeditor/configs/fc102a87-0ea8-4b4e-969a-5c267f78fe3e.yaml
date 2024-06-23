@@ -4,7 +4,6 @@ headingLevels:
   - 3
   - 4
   - 5
-listPlugin: DocumentList
 name: Advanced
 options:
   link:
@@ -14,6 +13,11 @@ options:
           rel: 'noopener noreferrer'
           target: _blank
         label: 'Open in a new tab'
+        mode: manual
+      isFootnote:
+        classes:
+          - FOOTNOTE
+        label: 'Is footnote'
         mode: manual
   style:
     definitions:
@@ -34,6 +38,7 @@ toolbar:
   - bold
   - italic
   - link
+  - superscript
   - '|'
   - insertTable
   - '|'

@@ -5,7 +5,25 @@
 {% endblock headLinks %}
 
 {% block content %}
-    {% include "_partials/blocks.twig" with { 'blocks': entry.contentBlocks } %}
+    <div class="max-w-7xl mx-auto px-8">
+        <div class="page-body max-w-4xl mx-auto">
+            <div class="main-column">
+                <div id="post-content">
+                    {% include "_partials/blocks.twig" with { 'blocks': entry.contentBlocks } %}
+
+                    <section class="footnotes" data-footnotes>
+                        <ol>
+                            {% for note in entry.footnotes %}
+                                <li id="fn-{{ loop.index }}">
+                                    <p>{{ note.text }}</p>
+                                </li>
+                            {% endfor %}
+                        </ol>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
 
 {% block subcontent %}
@@ -14,4 +32,54 @@
 {# -- Any JavaScript that should be included before </body> -- #}
 {% block bodyJs %}
     {{ parent() }}
+
+    <script>
+      let content = document.querySelector("#post-content");
+      content.insertAdjacentHTML(
+        'beforeend',
+        "<div id='sidenote-column-left' class='footnotes sidenote-column' style='visibility:hidden'></div><div id='sidenote-column-right' class='footnotes sidenote-column' style='visibility:hidden'></div>"
+      )
+      let left = document.querySelector("#sidenote-column-left");
+      let right = document.querySelector("#sidenote-column-right");
+
+      let firstChild = content.children[0]
+      left.style.top = `${firstChild.offsetTop}px`;
+      left.style.height = `calc(100% - ${firstChild.offsetTop}px)`;
+
+      let footnoteRefs = document.querySelectorAll("sup");
+      footnoteRefs.forEach((ref, i) => {
+        let footnote = document.querySelector(`#fn-${i + 1}`);
+        let sidenote = document.createElement('div')
+
+        sidenote.classList.add('sidenote');
+        sidenote.id = 'sn' + (i + 1);
+        sidenote.innerHTML = `<div class='sidenote-outer-wrapper'><div class='sidenote-inner-wrapper'>${footnote.innerHTML}</div></div>`;
+
+        let selflink = document.createElement('a');
+        selflink.classList.add('sidenote-self-link');
+        selflink.href = 'sn' + (i + 1);
+        selflink.textContent = `${i + 1}`;
+        sidenote.appendChild(selflink);
+
+        (i % 2 ? left : right).appendChild(sidenote);
+
+        if (sidenote.parentElement) {
+          let el = i % 2 ? left : right;
+          sidenote.style.top = Math.round(
+            ref.getBoundingClientRect().top - el.getBoundingClientRect().top
+          ) + 'px';
+
+          // No fucking idea what this is
+          let child = sidenote.firstElementChild;
+          sidenote.classList.toggle(
+            'cut-off',
+            !!(null === child || void 0 === child ? void 0 : child.scrollHeight) ||
+            0 > ((null === child || void 0 === child ? void 0 : child.clientHeight) || 0) + 2
+          );
+        }
+      });
+
+      left.style.visibility = '';
+      right.style.visibility = '';
+    </script>
 {% endblock bodyJs %}

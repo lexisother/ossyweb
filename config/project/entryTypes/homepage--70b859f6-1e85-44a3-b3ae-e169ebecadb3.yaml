@@ -36,6 +36,21 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 3db08b57-f3d4-4d95-882a-df1dce6941e0 # Header image
+            handle: profilePicture
+            includeInCards: false
+            instructions: null
+            label: 'Profile picture'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9be47a74-45b6-4b22-8d37-60c63d98e5db
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 4a2babac-f97c-4e71-8e7e-d6dfec11cc7e # Description
             handle: introduction
             includeInCards: false

@@ -1,27 +1,36 @@
 {% extends "_layouts/generic-page-layout.twig" %}
 
+{% set projects = craft.categories().all() %}
+
 {% block headLinks %}
     {{ parent() }}
 {% endblock headLinks %}
 
 {% block content %}
-    <div class="flex flex-row border-4 border-black rounded-2xl">
-        <div class="flex-grow p-6 content-center text-3xl">{{ entry.introduction }}</div>
-        <div class="border border-black border-x-2"></div>
-        <div class="grid grid-cols-3 p-6 text-3xl">
+    <div class="flex flex-row items-center mb-8 text-white bg-[#19283A] border-2 border-[#99F] shadow-[5px_5px_0px_0px_#A2ADDA]">
+        {% with { pfp: entry.profilePicture.one() } %}
+            {% if pfp is not null %}
+                <img class="h-24 w-24 mx-4" src="{{ pfp.url }}" />
+            {% endif %}
+        {% endwith %}
+        <div class="flex-grow w-1/2 p-2 content-center text-2xl">{{ entry.introduction }}</div>
+        <div class="grid grid-cols-4 gap-2 align-center p-6">
             {% for social in entry.socials %}
                 <a href="{{ social.url }}">
-                    {{ inlineSvg('socials/'~social.platform, 'w-12 h-12', { sanitize: true, namespace: true }) }}
+                    {{ inlineSvg('socials/'~social.platform, 'w-8 h-8 fill-white', { sanitize: true, namespace: true }) }}
                 </a>
             {% endfor %}
         </div>
     </div>
 
-    <div class="text-3xl">bookshelf:</div>
     <div class="flex flex-row gap-2 place-content-evenly">
-        <div class="flex-grow h-[15rem] p-10 border-4 border-black rounded-2xl content-center text-center">project 1</div>
-        <div class="flex-grow h-[15rem] p-10 border-4 border-black rounded-2xl content-center text-center">project 2</div>
-        <div class="flex-grow h-[15rem] p-10 border-4 border-black rounded-2xl content-center text-center">project 3</div>
+        {% for project in projects %}
+            <div class="flex-grow h-[15rem] bg-[url('{{ project.overviewImage.one().url }}')] bg-center bg-cover p-10 border-8 border-[#19283A] content-center text-center">
+                <p class="text-white text-xl">
+                    {{ project.title }}
+                </p>
+            </div>
+        {% endfor %}
     </div>
 
     {% include "_partials/blocks.twig" with { 'blocks': entry.contentBlocks } %}

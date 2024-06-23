@@ -25,7 +25,10 @@
 
     <div class="flex flex-row gap-2 place-content-evenly">
         {% for project in projects %}
-            <div class="flex-grow h-[15rem] bg-[url('{{ project.overviewImage.one().url }}')] bg-center bg-cover p-10 border-8 border-[#19283A] content-center text-center">
+            <div
+                style="background-image: url({{ project.overviewImage.one().url }})"
+                class="flex-grow h-[15rem] bg-center bg-cover p-10 border-8 border-[#19283A] content-center text-center"
+            >
                 <p class="text-white text-xl">
                     {{ project.title }}
                 </p>

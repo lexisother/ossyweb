@@ -1,9 +1,39 @@
+color: null
 fieldLayouts:
-  e4956de1-cf61-4356-83ef-0a0d1a9ad4c3:
+  2e1508e4-bbac-46dc-831a-2fa31b4e9598:
     tabs:
       -
         elementCondition: null
         elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b181db25-f403-4546-b2b0-2fa033618320
+            userCondition: null
+            warning: null
+            width: 100
           -
             elementCondition: null
             fieldUid: 3db08b57-f3d4-4d95-882a-df1dce6941e0 # Header image
@@ -15,7 +45,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 9e41b9bb-1848-4846-bcd5-691a008c4b05
+            uid: dfa96200-1222-466c-943f-e7e51f05f918
             userCondition: null
             warning: null
             width: 100
@@ -30,7 +60,7 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 36b4820f-6b7d-4acb-aac6-f7f0ef2f07c9
+            uid: 4c2da9fc-914b-4c96-ae0a-513cc012991a
             userCondition: null
             warning: null
             width: 100
@@ -45,13 +75,21 @@ fieldLayouts:
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 13979921-75b2-438b-b688-3c9e0fc0973b
+            uid: a69155a6-7500-4430-bcde-213e95520d6b
             userCondition: null
             warning: null
             width: 100
         name: Header
-        uid: 639a72fb-d71f-40a1-824d-935de5b6ee03
+        uid: 1e732958-f7e5-4d2f-8542-26648e133416
         userCondition: null
-handle: settings
-name: Settings
-sortOrder: 1
+handle: header
+hasTitleField: false
+icon: ''
+name: Header
+showSlugField: true
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: Header
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

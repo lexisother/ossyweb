@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 6a6f6930-cbb7-4e51-8eea-1b7db3a75d25 # Header
+handle: headerSettings
+maxAuthors: 1
+name: Header
+propagationMethod: all
+siteSettings:
+  56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

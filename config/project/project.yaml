@@ -1,4 +1,4 @@
-dateModified: 1719171922
+dateModified: 1719172379
 email:
   fromEmail: alyxia@riseup.net
   fromName: Ossyweb
@@ -25,13 +25,13 @@ meta:
     3e3f1077-a7fc-4cdc-a11b-963c9139b430: 'Default block' # Default block
     4a2babac-f97c-4e71-8e7e-d6dfec11cc7e: Description # Description
     5deffeba-4b22-4b86-bc22-7b847b5d2271: Caption # Caption
+    6a6f6930-cbb7-4e51-8eea-1b7db3a75d25: Header # Header
     6c1c2f5f-4865-446b-adbe-963bc320004f: 'Blog overview' # Blog overview
     6c815cf0-1120-459b-a4af-6683dc27784d: 'Content blocks - Video - Video type' # Content blocks - Video - Video type
     6cf7cf3c-bc05-4ed6-9ff3-3062822901f4: Layout # Layout
     6fa14b32-f1fa-47a6-8f89-4cfa9f57d553: Images # Images
     7d1cde09-7f5f-495f-a4c0-8bd783d3c328: Infobox # Infobox
     8ba5f4b6-0208-42fe-8e87-e4bfd2098698: 'Infobox - Infobox - Tables Block' # Infobox - Infobox - Tables Block
-    9a4bbe45-ebdc-4eef-837f-27294c5bcdf4: Settings # Settings
     11a23a8e-4161-498e-a186-17f3a02eee93: 'Infobox - Infobox - Image' # Infobox - Infobox - Image
     25e87bb8-0f06-4188-8853-66b67a9ed4cd: 'Header text' # Header text
     38f2889b-aa09-4eb1-9130-20289cb83756: Date # Date
@@ -69,6 +69,7 @@ meta:
     b653c91e-0112-4c5b-aff3-7db16183aa7f: Socials # Socials
     be9998d7-eb61-4f23-8102-da26d48440b7: 'Content blocks - Video - Video file' # Content blocks - Video - Video file
     ccc8c64c-9c60-49be-9c7b-2a1911394d95: Image # Image
+    d98cc2ec-cb65-4243-9992-5a52efd1f2a2: Header # Header
     dbb362d2-cf9d-4721-8b28-55f4f8e9cdae: 'Content blocks - Video - Placeholder image' # Content blocks - Video - Placeholder image
     ea4268bc-078c-437b-98b9-849a236599b4: Homepage # Homepage
     ef8f836c-1e3e-4c08-b6ac-678de5511aaa: Ossyweb # Ossyweb

@@ -36,6 +36,21 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 4a2babac-f97c-4e71-8e7e-d6dfec11cc7e # Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a2b0104-3f6e-43c9-a905-72b4f2ad8723
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 945a92b7-6991-438d-a6e5-83178d2900c1 # Author
             handle: null
             includeInCards: false
@@ -46,21 +61,6 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 1c2581b8-3ce1-4039-a0b7-a2b312025123
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: b553fa53-583f-4453-a2a5-5d729fc1a4dc # Project
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3f2fea6f-c4dd-4e3d-997d-9cf31b298a6c
             userCondition: null
             warning: null
             width: 100
@@ -81,6 +81,21 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: b553fa53-583f-4453-a2a5-5d729fc1a4dc # Project
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f2fea6f-c4dd-4e3d-997d-9cf31b298a6c
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
             fieldUid: 1773497c-af9b-4c16-abbf-6bff44a59d6f # Blog tags
             handle: null
             includeInCards: false
@@ -93,7 +108,7 @@ fieldLayouts:
             uid: 03a735fa-5065-46e9-b48f-791a92a536ad
             userCondition: null
             warning: null
-            width: 100
+            width: 75
           -
             elementCondition: null
             type: craft\fieldlayoutelements\HorizontalRule

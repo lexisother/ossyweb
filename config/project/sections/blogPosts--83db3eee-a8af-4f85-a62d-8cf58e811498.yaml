@@ -2,7 +2,7 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   - 757075c4-b94f-4be4-b55a-de554eb8b122 # Blog post
-handle: blog
+handle: blogPosts
 maxAuthors: 1
 name: 'Blog posts'
 previewTargets:

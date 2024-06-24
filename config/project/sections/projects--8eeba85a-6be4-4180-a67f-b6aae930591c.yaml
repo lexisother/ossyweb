@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 4e04925d-53af-439f-b5b0-80a29385e89c # Project
+handle: projects
+maxAuthors: 1
+name: Projects
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb
+    enabledByDefault: true
+    hasUrls: true
+    template: projects/_entry
+    uriFormat: '{slug}/{section.handle}'
+structure:
+  maxLevels: null
+  uid: 248f8094-b890-4bfa-a960-26ad67fef4ae
+type: structure

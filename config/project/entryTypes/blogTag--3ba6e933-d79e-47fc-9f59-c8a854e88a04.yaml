@@ -1,6 +1,6 @@
-defaultPlacement: end
+color: null
 fieldLayouts:
-  5d25ad62-915d-41a1-9faf-9589e3b64954:
+  30edcbe0-125b-40e5-8231-e9dc06575429:
     tabs:
       -
         elementCondition: null
@@ -29,8 +29,8 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
-            uid: 1f2fa3ca-d606-4c74-9321-130464f35d33
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 6e703a53-1147-4ca4-a5c3-d1df9a853781
             userCondition: null
             warning: null
             width: 100
@@ -45,20 +45,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 1e1b3192-a8e8-4bf4-ac9f-b5af34ca7c17
+            uid: b7055da6-430b-4726-ab8f-363fbcf17d67
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 41c93138-29f3-44aa-933b-2f2d371a8f81
+        uid: 48ed39bc-d408-4afb-b9b3-5a1cfd43c513
         userCondition: null
-handle: blogTags
-name: 'Blog tags'
-siteSettings:
-  56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb
-    hasUrls: true
-    template: null
-    uriFormat: 'blog/tags/{slug}'
-structure:
-  maxLevels: null
-  uid: 6491ef80-a2a3-408c-bab9-e132aa81eb60
+handle: blogTag
+hasTitleField: true
+icon: ''
+name: 'Blog tag'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

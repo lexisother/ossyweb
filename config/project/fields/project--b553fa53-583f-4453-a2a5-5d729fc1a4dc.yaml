@@ -8,15 +8,16 @@ settings:
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: null
-  minRelations: null
+  maxRelations: 1
+  minRelations: 1
   selectionLabel: 'Select a project'
   showCardsInGrid: false
-  showSiteMenu: false
-  source: 'group:44175b93-c8df-402d-8f0c-4a463e8ec041' # Projects
+  showSiteMenu: true
+  sources:
+    - 'section:8eeba85a-6be4-4180-a67f-b6aae930591c' # Projects
   targetSiteId: null
   validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Categories
+type: craft\fields\Entries

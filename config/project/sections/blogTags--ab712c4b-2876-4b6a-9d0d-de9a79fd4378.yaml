@@ -1,10 +1,10 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - 757075c4-b94f-4be4-b55a-de554eb8b122 # Blog posts
-handle: blogPosts
+  - 3ba6e933-d79e-47fc-9f59-c8a854e88a04 # Blog tag
+handle: blogTags
 maxAuthors: 1
-name: 'Blog posts'
+name: 'Blog tags'
 previewTargets:
   -
     __assoc__:
@@ -14,11 +14,14 @@ previewTargets:
       -
         - urlFormat
         - '{url}'
+      -
+        - refresh
+        - '1'
 propagationMethod: all
 siteSettings:
   56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb
     enabledByDefault: true
-    hasUrls: true
-    template: _sections/blog/entry
-    uriFormat: '{project.one().slug}/blog/{slug}'
+    hasUrls: false
+    template: null
+    uriFormat: null
 type: channel

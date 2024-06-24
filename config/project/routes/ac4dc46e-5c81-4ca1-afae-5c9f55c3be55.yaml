@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 2
+template: _sections/wiki/index.twig
+uriParts:
+  - '<projectSlug:{slug}>/wiki'
+uriPattern: '<projectSlug:{slug}>/wiki'

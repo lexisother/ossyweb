@@ -1,6 +1,6 @@
-defaultPlacement: end
+color: null
 fieldLayouts:
-  42c3846d-ab3f-4c45-8883-12ee957626a7:
+  9b9618fa-249f-4b71-bd7a-4a2e5c8c3c62:
     tabs:
       -
         elementCondition: null
@@ -29,14 +29,29 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\TitleField
-            uid: c02a60e1-e712-4ba3-b2ec-a3f366e4e1ad
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 82cb4ea6-d6af-487b-9fbf-c8073f215251
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 4a2babac-f97c-4e71-8e7e-d6dfec11cc7e # Description
+            fieldUid: b553fa53-583f-4453-a2a5-5d729fc1a4dc # Project
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73cf7128-cd68-48b3-90b1-6c85ddede020
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7d1cde09-7f5f-495f-a4c0-8bd783d3c328 # Infobox
             handle: null
             includeInCards: false
             instructions: null
@@ -45,13 +60,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: fb21132e-0627-4b0d-b366-1019ac676d58
+            uid: 947a5877-a7bb-456d-82a6-46df22aa9eb7
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f4bb6200-34bc-40a3-a178-12160c9f2ddf # Overview image
+            fieldUid: 85c940f6-bd12-409a-ba09-e89808e51588 # Content blocks
             handle: null
             includeInCards: false
             instructions: null
@@ -60,20 +75,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e4a8a1d6-5ffa-47c1-b176-9a77b17d2a94
+            uid: bce0b9da-a826-480d-b12a-d6cccbe444e0
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: e2bc1cd0-7aeb-4fe9-b8c3-8f50c83153d4
+        uid: db729316-ce08-464d-8ae2-38fcb40dd408
         userCondition: null
-handle: projects
-name: Projects
-siteSettings:
-  56778e37-c05d-4b72-9057-434d06389bd1: # Ossyweb
-    hasUrls: false
-    template: null
-    uriFormat: null
-structure:
-  maxLevels: null
-  uid: f327c3b8-4417-484e-963c-cb37461c5ceb
+handle: wikiPage
+hasTitleField: true
+icon: ''
+name: 'Wiki page'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

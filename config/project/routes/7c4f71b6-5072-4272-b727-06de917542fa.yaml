@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 3
+template: _sections/blog/index.twig
+uriParts:
+  - '<projectSlug:{slug}>/blog'
+uriPattern: '<projectSlug:{slug}>/blog'

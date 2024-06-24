@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  9b9618fa-249f-4b71-bd7a-4a2e5c8c3c62:
+  06bf42f1-5c66-4c63-968c-f55913744b9d:
     tabs:
       -
         elementCondition: null
@@ -30,28 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 82cb4ea6-d6af-487b-9fbf-c8073f215251
+            uid: 2d560568-4a74-441c-8e3b-68bf57677960
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: b553fa53-583f-4453-a2a5-5d729fc1a4dc # Project
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 73cf7128-cd68-48b3-90b1-6c85ddede020
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 7d1cde09-7f5f-495f-a4c0-8bd783d3c328 # Infobox
+            fieldUid: 4a2babac-f97c-4e71-8e7e-d6dfec11cc7e # Description
             handle: null
             includeInCards: false
             instructions: null
@@ -60,13 +45,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 947a5877-a7bb-456d-82a6-46df22aa9eb7
+            uid: 25a4c75b-fdd3-4120-8c1c-125577574121
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 85c940f6-bd12-409a-ba09-e89808e51588 # Content blocks
+            fieldUid: f4bb6200-34bc-40a3-a178-12160c9f2ddf # Overview image
             handle: null
             includeInCards: false
             instructions: null
@@ -75,17 +60,17 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: bce0b9da-a826-480d-b12a-d6cccbe444e0
+            uid: a5596fde-7db2-44ca-b763-22862136885c
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: db729316-ce08-464d-8ae2-38fcb40dd408
+        uid: 99746ff1-141e-4cde-83d1-dffd9cf1f567
         userCondition: null
-handle: default
+handle: project
 hasTitleField: true
 icon: ''
-name: Default
+name: Project
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

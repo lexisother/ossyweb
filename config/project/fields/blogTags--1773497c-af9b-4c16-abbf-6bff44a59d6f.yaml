@@ -10,13 +10,14 @@ settings:
   maintainHierarchy: false
   maxRelations: null
   minRelations: null
-  selectionLabel: null
+  selectionLabel: 'Add a tag'
   showCardsInGrid: false
   showSiteMenu: true
-  source: 'group:0c0a4890-0834-44b7-b457-2a6ce8be38b7' # Blog tags
+  sources:
+    - 'section:ab712c4b-2876-4b6a-9d0d-de9a79fd4378' # Blog tags
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: null
+  viewMode: list
 translationKeyFormat: null
 translationMethod: site
-type: craft\fields\Categories
+type: craft\fields\Entries

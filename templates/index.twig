@@ -1,6 +1,6 @@
 {% extends "_layouts/generic-page-layout.twig" %}
 
-{% set projects = craft.categories().all() %}
+{% set projects = craft.entries().section('projects').all() %}
 
 {% block headLinks %}
     {{ parent() }}
@@ -11,11 +11,15 @@
         {% for project in projects %}
             <div
                 style="background-image: url({{ project.overviewImage.one().url }})"
-                class="flex-grow h-[15rem] bg-center bg-cover p-10 border-8 border-[#19283A] content-center text-center"
+                class="flex-grow h-[15rem] bg-center bg-cover p-10 border-8 border-[#19283A] content-center text-center text-white"
             >
-                <p class="text-white text-xl">
+                <p class="text-xl">
                     {{ project.title }}
                 </p>
+                <div class="flex flex-row gap-2 justify-center">
+                    <a class="text-blue-500 underline" href="{{ project.slug }}/blog">blog</a>
+                    <a class="text-blue-500 underline" href="{{ project.slug }}/wiki">wiki</a>
+                </div>
             </div>
         {% endfor %}
     </div>

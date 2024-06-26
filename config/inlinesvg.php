@@ -8,6 +8,7 @@ return [
 
     'paths' => [
         '@webroot/img',
+        '@webroot/assets/images'
     ],
     'class' => '',
 

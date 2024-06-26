@@ -16,8 +16,8 @@ jobs:
           run_install: false
       - uses: actions/setup-node@v4
         with:
-          node-version: "21.x"
-          cache: "pnpm"
+          node-version: '21.x'
+          cache: 'pnpm'
 
       - name: Vite build
         run: |
@@ -38,9 +38,9 @@ jobs:
             mv ${{ secrets.REMOTE_ROOT }}/.env ${{ secrets.REMOTE_ROOT }}/..
             mv ${{ secrets.REMOTE_ROOT }}/docker-compose.yml ${{ secrets.REMOTE_ROOT }}/..
             mv ${{ secrets.REMOTE_ROOT }}/Dockerfile ${{ secrets.REMOTE_ROOT }}/..
+            mv ${{ secrets.REMOTE_ROOT }}/web/{assets,imager} ${{ secrets.REMOTE_ROOT }}/.. || true
             cd ${{ secrets.REMOTE_ROOT }}
-            mkdir web/{imager,assets} || true
-            echo "${{ secrets.REMOTE_PASS }}" | sudo -S chmod -R o+w {config,storage,web/{cpresources,imager,assets}} || exit 0
+            echo "${{ secrets.REMOTE_PASS }}" | sudo -S chmod -R o+w {config,storage,web/cpresources} || exit 0
           script_stop: true
 
       - name: Rsync files to staging
@@ -65,6 +65,8 @@ jobs:
             mv ${{ secrets.REMOTE_ROOT }}/../.env ${{ secrets.REMOTE_ROOT }}
             mv -f ${{ secrets.REMOTE_ROOT }}/../docker-compose.yml ${{ secrets.REMOTE_ROOT }}
             mv ${{ secrets.REMOTE_ROOT }}/../Dockerfile ${{ secrets.REMOTE_ROOT }}
+            mv ${{ secrets.REMOTE_ROOT }}/../{assets,imager} ${{ secrets.REMOTE_ROOT }}/web || true
+            echo "${{ secrets.REMOTE_PASS }}" | sudo -S chmod -R o+w {web/{assets,imager}} || exit 0
           script_stop: true
 
       - name: Restart Docker containers

@@ -26,7 +26,7 @@ export default defineConfig(({command}) => ({
   },
   plugins: [
     critical({
-      criticalUrl: 'https://ossyweb.ddev.site',
+      criticalUrl: 'https://ossy.alyxia.dev',
       criticalBase: './web/dist/criticalcss/',
       criticalPages: [
         {uri: '/', template: 'index'},

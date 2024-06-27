@@ -4,45 +4,21 @@ instructions: null
 name: Socials
 searchable: false
 settings:
-  addRowLabel: 'Add a row'
-  columns:
-    __assoc__:
-      -
-        - col1
-        -
-          __assoc__:
-            -
-              - heading
-              - Platform
-            -
-              - handle
-              - platform
-            -
-              - width
-              - ''
-            -
-              - type
-              - singleline
-      -
-        - col2
-        -
-          __assoc__:
-            -
-              - heading
-              - URL
-            -
-              - handle
-              - url
-            -
-              - width
-              - ''
-            -
-              - type
-              - singleline
-  defaults: null
-  maxRows: null
-  minRows: null
-  staticRows: false
+  createButtonLabel: 'Add a social'
+  defaultTableColumns:
+    - status
+    - 'field:c0e7f181-8a6d-48f7-a436-3e3337697594' # Icon
+    - 'fieldInstance:76839d24-4ea0-4452-a8fa-462a001c1360'
+  entryTypes:
+    - c45a1434-4e81-4ae7-8ea9-47a5495a4c87 # Social
+  includeTableView: true
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: index
 translationKeyFormat: null
-translationMethod: none
-type: craft\fields\Table
+translationMethod: site
+type: craft\fields\Matrix

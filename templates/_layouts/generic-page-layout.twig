@@ -44,8 +44,9 @@
             <div class="flex-grow w-1/2 p-2 content-center text-2xl">{{ headerSettings.introduction }}</div>
             <div class="grid grid-cols-4 gap-2 align-center p-6">
                 {% for social in headerSettings.socials %}
-                    <a href="{{ social.url }}">
-                        {{ inlineSvg('socials/'~social.platform, 'w-8 h-8 fill-white', { sanitize: true, namespace: true }) }}
+                    <a href="{{ social.socialLink }}">
+                        {% set filename = social.icon.one().filename | split('.')|slice(0,-1)|join %}
+                        {{ inlineSvg('socials/'~filename, 'w-8 h-8 fill-white', { sanitize: true, namespace: true }) }}
                     </a>
                 {% endfor %}
             </div>

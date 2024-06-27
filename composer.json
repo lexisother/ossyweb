@@ -2,11 +2,11 @@
   "require": {
     "clubstudioltd/craft-inline-svg": "2.1.0",
     "craftcms/ckeditor": "4.1.0",
-    "craftcms/cms": "5.2.2",
+    "craftcms/cms": "5.2.3",
     "hybridinteractive/craft-position-fieldtype": "5.0.0",
     "nystudio107/craft-minify": "5.0.0",
     "nystudio107/craft-vite": "5.0.0",
-    "spacecatninja/imager-x": "5.0.0",
+    "spacecatninja/imager-x": "5.0.1",
     "verbb/tablemaker": "5.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
